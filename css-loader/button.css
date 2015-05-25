@@ -1,3 +1,7 @@
+:local(.container) {
+  text-align: center;
+}
+
 :local(.button) {
   background-color: #ff0000;
   width: 320px;
