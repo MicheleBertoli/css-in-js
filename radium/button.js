@@ -2,6 +2,9 @@ import React from 'react';
 import Radium from 'radium';
 
 let styles = {
+  container: {
+    textAlign: 'center'
+  },
   button: {
     backgroundColor: '#ff0000',
     width: '320px',
@@ -24,7 +27,11 @@ let styles = {
 
 let Button = React.createClass(Radium.wrap({
   render() {
-    return <button style={styles.button}>Click me!</button>;
+    return (
+      <div style={styles.container}>
+        <button style={styles.button}>Click me!</button>
+      </div>
+    );
   }
 }));
 
