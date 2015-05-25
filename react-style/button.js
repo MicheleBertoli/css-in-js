@@ -3,6 +3,9 @@ let React = require('react');
 let StyleSheet = require('react-style');
 
 let styles = StyleSheet.create({
+  container: {
+    textAlign: 'center'
+  },
   button: {
     backgroundColor: '#ff0000',
     width: '320px',
@@ -20,7 +23,11 @@ let styles = StyleSheet.create({
 
 let Button = React.createClass({
   render() {
-    return <button styles={styles.button}>Click me!</button>;
+    return (
+      <div styles={styles.container}>
+        <button styles={styles.button}>Click me!</button>
+      </div>
+    );
   }
 });
 
