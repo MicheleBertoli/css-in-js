@@ -15,7 +15,7 @@ let styles = {
 let Button = React.createClass({
   render() {
     return (
-      <Block>
+      <Block textAlign="center">
         <button style={styles.button}>Click me!</button>
       </Block>
     );
