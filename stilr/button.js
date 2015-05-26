@@ -20,7 +20,7 @@ let styles = StyleSheet.create({
       top: '2px'
     },
     ['@media (max-width: 480px)']: {
-      width: '160px !important'
+      width: '160px'
     }
   }
 });
