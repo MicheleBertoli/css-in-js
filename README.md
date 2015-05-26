@@ -17,6 +17,7 @@ npm run build && open index.html
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | | | x | |
 | [css-loader](https://github.com/webpack/css-loader) | x | x | | x |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | x | x | x | |
+| [stilr](https://github.com/chriskjaer/stilr) | x | x | x | x |
 
 ## Contributing
 If your package is not listed here, feel free to add it.
