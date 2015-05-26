@@ -1,6 +1,7 @@
 import React from 'react';
 import StyleSheet from 'stilr';
 
+const breakpoint = '@media (max-width: 480px)';
 let styles = StyleSheet.create({
   container: {
     textAlign: 'center'
@@ -19,7 +20,7 @@ let styles = StyleSheet.create({
       position: 'relative',
       top: '2px'
     },
-    ['@media (max-width: 480px)']: {
+    [breakpoint]: {
       width: '160px !important'
     }
   }
@@ -36,5 +37,13 @@ let Button = React.createClass({
 });
 
 if (typeof window !== 'undefined') {
+
+  // If running in production and a seperate stylesheet is required,
+  // extract the stylesheet by running `make extract-styles`
+
+  let stylesheet = document.createElement('style');
+  stylesheet.textContent = StyleSheet.render();
+  document.head.appendChild(stylesheet);
+
   React.render(<Button />, document.getElementById('content'));
 }
