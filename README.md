@@ -18,6 +18,7 @@ npm run build && open index.html
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | | | x | |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | x | x | x | |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | x | | | |
+| [react-statics-styles](https://github.com/elierotenberg/react-statics-styles) | x | | x | x |
 | [react-styl](https://github.com/nick/react-styl) | x | x | | |
 | [react-style](https://github.com/js-next/react-style) | | x | x | x |
 | [smart-css](https://github.com/hackhat/smart-css) | x | x | x | |
