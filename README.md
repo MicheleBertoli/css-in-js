@@ -23,6 +23,7 @@ npm run build && open index.html
 | [react-style](https://github.com/js-next/react-style) | | x | x | x |
 | [smart-css](https://github.com/hackhat/smart-css) | x | x | x | |
 | [stilr](https://github.com/chriskjaer/stilr) | x | x | x | x |
+| [nmConfig](https://github.com/namshi/node-nmconfig) | | | x | |
 
 ## Contributing
 If your package is not listed here, feel free to add it.
