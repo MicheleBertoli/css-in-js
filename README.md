@@ -10,8 +10,8 @@ npm run build && open index.html
 ```
 
 ## Features
-| Package | Autoprefix | Pseudo Classes | Media Queries | JavaScript Powered | Extract CSS File |
-|---------|:----------:|:--------------:|:-------------:|:------------------:|:----------------:|
+| Package | Autoprefixer Included | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
+|---------|:---------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
 | [css-loader](https://github.com/webpack/css-loader) | | x | x | | x |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | x | | | x | |
 | [radium](https://github.com/FormidableLabs/radium) | x | x | x | x | |
