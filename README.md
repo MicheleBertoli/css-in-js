@@ -10,6 +10,12 @@ npm run build && open index.html
 ```
 
 ## Features
+
+**How to read the table** 
+
+More crosses doesn't mean "better", it depends on your needs.
+For example, if a package supports the css file extraction you can run the autoprefixing at build time.
+
 | Package | Autoprefixer Included | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
 |---------|:---------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
 | [css-loader](https://github.com/webpack/css-loader) | | x | x | | x |
