@@ -23,8 +23,8 @@ For example, if a package supports the css file extraction you can run the autop
 | [radium](https://github.com/FormidableLabs/radium) | x | x | x | x | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | | | | x | |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | | x | x | x | |
-| [react-inline](https://github.com/martinandert/react-inline) | x | x | x | x | x |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | | x | x | | |
+| [react-inline](https://github.com/martinandert/react-inline) | x | x | x | x | x |
 | [react-jss](https://github.com/jsstyles/react-jss) | x | x | x | x | |
 | [react-statics-styles](https://github.com/elierotenberg/react-statics-styles) | | x | | x | x |
 | [react-styl](https://github.com/nick/react-styl) | | x | x | | |
