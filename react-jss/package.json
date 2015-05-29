@@ -9,6 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "jss": "^1.0.8",
+    "jss-vendor-prefixer": "^0.2.1",
     "react": "^0.13.3",
     "react-jss": "^1.0.0"
   },

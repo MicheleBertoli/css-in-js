@@ -1,5 +1,9 @@
 import React from 'react';
+import jss from 'jss';
+import vendorPrefixer from 'jss-vendor-prefixer';
 import useSheet from 'react-jss';
+
+jss.use(vendorPrefixer);
 
 let styles = {
   '.container': {
