@@ -1,0 +1,19 @@
+{
+  "name": "react-inline-css-in-js",
+  "version": "1.0.0",
+  "description": "react-inline - CSS in JS",
+  "scripts": {
+    "build": "react-inline-extract --follow-requires --ignore-dependencies --ignore-node-core --vendor-prefixes --bundle ../bundle.css --babelize . lib/ button && webpack ./lib/button.js bundle.js"
+  },
+  "author": "Martin Andert",
+  "license": "MIT",
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "react-inline": "^0.6.1",
+    "webpack": "^1.9.10"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.4.7",
+    "react": "^0.13.3"
+  }
+}
