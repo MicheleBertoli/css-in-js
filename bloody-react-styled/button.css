@@ -1,0 +1,28 @@
+:local(.container) {
+  text-align: center;
+}
+
+:local(.button) {
+  background-color: #ff0000;
+  width: 320px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+:local(.button:hover) {
+  color: #fff;
+}
+
+:local(.button:active) {
+  position: relative;
+  top: 2px;
+}
+
+@media (max-width: 480px) {
+  :local(.button) {
+    width: 160px
+  }
+}
+  

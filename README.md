@@ -18,6 +18,7 @@ For example, if a package supports the css file extraction you can run the autop
 
 | Package | Autoprefixer Included | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
 |---------|:---------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
+| [bloody-react-styled](https://github.com/bloodyowl/react-styled) | | x | x | | |
 | [css-loader](https://github.com/webpack/css-loader) | | x | x | | x |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | x | | | x | |
 | [radium](https://github.com/FormidableLabs/radium) | x | x | x | x | |
