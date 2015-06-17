@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Radium from 'radium';
 
-let styles = {
+const styles = {
   container: {
     textAlign: 'center'
   },
@@ -25,7 +25,8 @@ let styles = {
   }
 };
 
-let Button = React.createClass(Radium.wrap({
+@Radium
+class Button extends Component {
   render() {
     return (
       <div style={styles.container}>
@@ -33,6 +34,6 @@ let Button = React.createClass(Radium.wrap({
       </div>
     );
   }
-}));
+}
 
 React.render(<Button />, document.getElementById('content'));
