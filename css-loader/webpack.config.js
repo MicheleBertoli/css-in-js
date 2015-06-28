@@ -8,7 +8,7 @@ module.exports = {
       loader: 'babel'
     }, { 
       test: /\.css$/, 
-      loader: ExtractTextPlugin.extract('style-loader', 'css-loader?module')
+      loader: ExtractTextPlugin.extract('style-loader', 'css-loader?minimize')
     }]
   },
   plugins: [
