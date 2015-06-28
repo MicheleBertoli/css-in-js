@@ -20,6 +20,7 @@ For example, if a package supports the css file extraction you can run the autop
 |---------|:-------:|:---------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | x | x | | |
 | [css-loader](https://github.com/webpack/css-loader) | 0.14.2 | | x | x | | x |
+| [j2c](https://github.com/pygy/j2c) | 0.7.3 | x | x | x | x | |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.12 | x | | | x | |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.0 | x | x | x | x | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | x | |
