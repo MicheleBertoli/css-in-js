@@ -1,22 +1,23 @@
+require('babel/register')({
+  only: /\.jsx$/,
+  optional: [
+    'runtime',
+    'es7.classProperties',
+    'es7.decorators',
+  ],
+});
+
 var gulp = require('gulp');
 var babel = require("gulp-babel");
-var rename = require("gulp-rename");
-var style = require('gulp-react-statics-styles');
-var runSequence = require('run-sequence');
-
-gulp.task('babel', function() {
-  return gulp.src('./button.js')
-    .pipe(babel())
-    .pipe(rename('bundle.js'))
-    .pipe(gulp.dest('./'));
-});
+var revertPath = require('gulp-revert-path');
+var styles = require('gulp-react-statics-styles');
 
 gulp.task('componentsCSS', function() {
-  return gulp.src('./bundle.js')
-    .pipe(style())
+  return gulp.src('./button.jsx')
+    .pipe(babel({
+      stage: 0
+    }))
+    .pipe(revertPath())
+    .pipe(styles())
     .pipe(gulp.dest('./'));
-});
-
-gulp.task('default', function(callback) {
-  runSequence('babel', 'componentsCSS', callback);
 });

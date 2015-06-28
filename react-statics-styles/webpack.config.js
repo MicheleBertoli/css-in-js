@@ -2,8 +2,8 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.jsx?$/,
-      exclude: /(node_modules|bower_components)/,
-      loader: 'babel'
+      exclude: /(bower_components)/,
+      loader: 'babel?stage=0'
     }]
   }
 }
