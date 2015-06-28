@@ -32,7 +32,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-styl](https://github.com/nick/react-styl) | 0.0.1 | | x | x | | |
 | [react-style](https://github.com/js-next/react-style) | 0.5.5 | | | x | x | x |
 | [smart-css](https://github.com/hackhat/smart-css) | 1.1.0 | | x | x | x | |
-| [stilr](https://github.com/chriskjaer/stilr) | 0.2.2 | | x | x | x | x |
+| [stilr](https://github.com/chriskjaer/stilr) | 1.1.0 | | x | x | x | x |
 
 ## Contributing
 If your package is not listed here, feel free to add it.

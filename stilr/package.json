@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.13.3",
-    "stilr": "^0.2.2"
+    "stilr": "^1.1.0"
   },
   "devDependencies": {
     "babel": "^5.4.7",
