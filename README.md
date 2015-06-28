@@ -22,7 +22,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.1 | | x | x | | x |
 | [j2c](https://github.com/pygy/j2c) | 0.7.3 | x | x | x | x | |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | x | | | x | |
-| [radium](https://github.com/FormidableLabs/radium) | 0.13.0 | x | x | x | x | |
+| [radium](https://github.com/FormidableLabs/radium) | 0.13.2 | x | x | x | x | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | x | |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | 0.5.1 | | x | x | x | |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | 1.1.1 | | x | x | | |
