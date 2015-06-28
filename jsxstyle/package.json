@@ -8,7 +8,7 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "jsxstyle": "0.0.12",
+    "jsxstyle": "0.0.14",
     "react": "^0.13.3"
   },
   "devDependencies": {
