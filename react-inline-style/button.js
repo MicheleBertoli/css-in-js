@@ -1,12 +1,10 @@
 import React from 'react';
 import Style from 'react-inline-style';
 
-let myStyle = Style.define({
-
+let styles = Style.define({
   container: {
     textAlign: 'center'
   },
-
   button: {
     backgroundColor: '#ff0000',
     width: '320px',
@@ -14,39 +12,32 @@ let myStyle = Style.define({
     borderRadius: '5px',
     border: 'none',
     outline: 'none',
-
     hover: {
       color: '#fff'
     },
-  
     pressed: {
       position: 'relative',
       top: '2px'
-    } 
-  
+    }
   }
-
 });
 
-myStyle = myStyle.global({
-
+styles = styles.global({
   '@media (max-width: 480px)': {
-
     'button': {
       width: '160px !important'
     }
-
   }
-  
 })
 
-
-let Button = React.createClass({
-  mixins : [myStyle()],
+const Button = React.createClass({
+  mixins: [styles()],
   render() {
     return (
       <div style={this.style('container')}>
-        <button style={this.style('button', 'button.hover:hover', 'button.pressed:pressed')}>Click me!</button>
+        <button style={this.style('button', 'button.hover:hover', 'button.pressed:pressed')}>
+          Click me!
+        </button>
       </div>
     );
   }

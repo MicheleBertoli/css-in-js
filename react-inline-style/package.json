@@ -1,7 +1,7 @@
 {
-  "name": "react-css-builder-css-in-js",
+  "name": "react-inline-style-css-in-js",
   "version": "1.0.0",
-  "description": "react-css-builder - CSS in JS",
+  "description": "react-inline-style - CSS in JS",
   "scripts": {
     "build": "webpack ./button.js bundle.js"
   },
