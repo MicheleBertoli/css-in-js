@@ -27,6 +27,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | 0.5.1 | | x | x | x | |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | 1.1.1 | | x | x | | |
 | [react-inline](https://github.com/martinandert/react-inline) | 0.6.3 | x | x | x | x | x |
+| [react-inline-style](https://github.com/dowjones/react-inline-style) | 0.1.0 | x | x | x | x | |
 | [react-jss](https://github.com/jsstyles/react-jss) | 1.0.0 | x | x | x | x | |
 | [react-statics-styles](https://github.com/elierotenberg/react-statics-styles) | 3.0.2 | | x | | x | x |
 | [react-styl](https://github.com/nick/react-styl) | 0.0.1 | | x | x | | |
