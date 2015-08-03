@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.13.3",
-    "react-inline-css": "^1.1.1"
+    "react-inline-css": "^1.2.0"
   },
   "devDependencies": {
     "babel-loader": "^5.1.3",
