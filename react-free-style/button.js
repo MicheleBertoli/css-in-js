@@ -1,7 +1,7 @@
-import React from 'react';
-import FreeStyle from 'react-free-style';
+import React, {Component} from 'react';
+import {create, injectStyle} from 'react-free-style';
 
-let Style = FreeStyle.create();
+let Style = create();
 
 let CONTAINER_STYLE = Style.registerStyle({
   textAlign: 'center'
@@ -26,7 +26,8 @@ let BUTTON_STYLE = Style.registerStyle({
   }
 });
 
-let Button = React.createClass({
+@injectStyle(Style)
+class Button extends Component {
   render() {
     return (
       <div className={CONTAINER_STYLE.className}>
@@ -35,8 +36,6 @@ let Button = React.createClass({
       </div>
     );
   }
-});
-
-Button = Style.component(Button);
+};
 
 React.render(<Button />, document.getElementById('content'));

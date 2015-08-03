@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.13.3",
-    "react-free-style": "^0.5.1"
+    "react-free-style": "^0.6.0"
   },
   "devDependencies": {
     "babel-loader": "^5.1.3",
