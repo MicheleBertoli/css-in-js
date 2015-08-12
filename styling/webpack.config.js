@@ -1,3 +1,5 @@
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = {
   module: {
     loaders: [{
@@ -6,7 +8,10 @@ module.exports = {
       loader: 'babel'
     }, {
       test: /\.styling\.js/,
-      loader: 'style!css!styling!babel'
+      loader: ExtractTextPlugin.extract('style', 'css!styling!babel')
     }]
-  }
+  },
+  plugins: [
+    new ExtractTextPlugin('bundle.css')
+  ]
 }

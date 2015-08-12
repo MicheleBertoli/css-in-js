@@ -35,7 +35,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [reactcss](https://github.com/casesandberg/reactcss) | 0.3.2 | x | | | x | |
 | [smart-css](https://github.com/hackhat/smart-css) | 1.1.1 | | x | x | x | |
 | [stilr](https://github.com/chriskjaer/stilr) | 1.1.0 | | x | x | x | x |
-| [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | |
+| [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | x |
 
 ## Contributing
 If your package is not listed here, feel free to add it.
