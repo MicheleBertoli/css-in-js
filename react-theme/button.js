@@ -13,33 +13,15 @@ theme.setSource('button', () => ({
   padding: '20px',
   borderRadius: '5px',
   border: 'none',
-  outline: 'none',
-  toggled: {
-    color: '#fff',
-    position: 'relative',
-    top: '2px'
-  },
+  outline: 'none'
 }))
 
 class Button extends Component {
-  constructor() {
-    super()
-    this.state = {toggled: false}
-  }
-
-  handleClick = () => {
-    this.setState({toggled: !this.state.toggled})
-  }
-
   render() {
-    const {toggled} = this.state
-
     return (
       <div style={theme.getStyle('container')}>
-        <button
-          style={theme.getStyle('button', {toggled})}
-          onClick={this.handleClick}>
-          Click me!
+        <button style={theme.getStyle('button')}>
+          Look at me!
         </button>
       </div>
     )
