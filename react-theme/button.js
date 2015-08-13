@@ -21,7 +21,7 @@ class Button extends Component {
     return (
       <div style={theme.getStyle('container')}>
         <button style={theme.getStyle('button')}>
-          Look at me!
+          Click me!
         </button>
       </div>
     )
