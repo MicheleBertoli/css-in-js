@@ -14,7 +14,7 @@ theme.setSource('button', () => ({
   borderRadius: '5px',
   border: 'none',
   outline: 'none',
-  active: {
+  toggled: {
     color: '#fff',
     position: 'relative',
     top: '2px'
@@ -24,20 +24,20 @@ theme.setSource('button', () => ({
 class Button extends Component {
   constructor() {
     super()
-    this.state = {active: false}
+    this.state = {toggled: false}
   }
 
   handleClick = () => {
-    this.setState({active: !this.state.active})
+    this.setState({toggled: !this.state.toggled})
   }
 
   render() {
-    const {active} = this.state
+    const {toggled} = this.state
 
     return (
       <div style={theme.getStyle('container')}>
         <button
-          style={theme.getStyle('button', {active})}
+          style={theme.getStyle('button', {toggled})}
           onClick={this.handleClick}>
           Click me!
         </button>
