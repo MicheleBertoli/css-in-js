@@ -39,5 +39,13 @@ For example, if a package supports the css file extraction you can run the autop
 | [stilr](https://github.com/chriskjaer/stilr) | 1.1.0 | | x | x | x | x |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | x |
 
+## Testimonials
+
+> ["Wow, this totally makes my week!"](https://twitter.com/dan_abramov/status/604260877622202368) - Dan Abramov
+
+[SurviveJS / Styling React](http://survivejs.com/webpack_react/styling_react/) by Juho Vepsäläinen
+
+[React Inline Styles are Fundamentally Flawed](https://byjoeybaker.com/react-inline-styles) by Joey Baker
+
 ## Contributing
 If your package is not listed here, feel free to add it.
