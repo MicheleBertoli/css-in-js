@@ -24,6 +24,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | x | | | x | |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.5 | x | x | x | x | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | x | |
+| [react-css-modules](https://github.com/gajus/react-css-modules) | 3.0.2 | | x | x | | x |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | 0.6.0 | | x | x | x | |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | 1.2.0 | | x | x | | |
 | [react-inline](https://github.com/martinandert/react-inline) | 0.6.3 | x | x | x | x | x |
