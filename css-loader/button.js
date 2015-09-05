@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './button.css';
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div className={styles.container}>

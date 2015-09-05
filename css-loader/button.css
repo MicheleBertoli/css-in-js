@@ -1,8 +1,8 @@
-:local(.container) {
+.container {
   text-align: center;
 }
 
-:local(.button) {
+.button {
   background-color: #ff0000;
   width: 320px;
   padding: 20px;
@@ -11,18 +11,18 @@
   outline: none;
 }
 
-:local(.button:hover) {
+.button:hover {
   color: #fff;
 }
 
-:local(.button:active) {
+.button:active {
   position: relative;
   top: 2px;
 }
 
-@media (max-width: 480px) {
-  :local(.button) {
+@media (max-width: 480px {
+  .button {
     width: 160px
   }
 }
-  
+
