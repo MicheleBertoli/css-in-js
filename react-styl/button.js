@@ -25,7 +25,7 @@ ReactStyl(`
 
 `);
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div className="container">

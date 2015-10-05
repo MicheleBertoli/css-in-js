@@ -1,7 +1,7 @@
 import React from 'react';
 import j2c from 'j2c';
 
-let styles = j2c.scoped({
+const styles = j2c.scoped({
   container: {
     'text-align': 'center'
   },
@@ -25,7 +25,7 @@ let styles = j2c.scoped({
   }
 });
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div>

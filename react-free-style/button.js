@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {create, injectStyle} from 'react-free-style';
 
-let Style = create();
+const Style = create();
 
-let CONTAINER_STYLE = Style.registerStyle({
+const CONTAINER_STYLE = Style.registerStyle({
   textAlign: 'center'
 });
 
-let BUTTON_STYLE = Style.registerStyle({
+const BUTTON_STYLE = Style.registerStyle({
   backgroundColor: '#ff0000',
   width: '320px',
   padding: '20px',

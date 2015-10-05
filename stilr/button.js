@@ -1,7 +1,7 @@
 import React from 'react';
 import StyleSheet from 'stilr';
 
-let styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     textAlign: 'center'
   },
@@ -25,7 +25,7 @@ let styles = StyleSheet.create({
   }
 });
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div className={styles.container}>

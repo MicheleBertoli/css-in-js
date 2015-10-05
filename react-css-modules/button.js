@@ -6,7 +6,6 @@ import styles from './button.css';
 @CSSModules(styles)
 class Button extends Component {
   render() {
-    const {css} = this.props;
     return (
       <div styleName="container">
         <button styleName="button">Click me!</button>

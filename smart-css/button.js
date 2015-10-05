@@ -1,7 +1,7 @@
 import React from 'react';
 import SmartCSS from 'smart-css';
 
-let css = new SmartCSS();
+const css = new SmartCSS();
 
 css.setClass('.container', {
   textAlign: 'center'
@@ -31,7 +31,7 @@ css.setClass('.button', {
   media: '(max-width: 480px)'
 });
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div className={css.getClass('container')}>

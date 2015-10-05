@@ -1,7 +1,7 @@
 import React from 'react';
 import StyleSheet from 'react-inline';
 
-let styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     textAlign: 'center'
   },

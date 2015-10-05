@@ -1,7 +1,7 @@
 import React from 'react';
 import {Block} from 'jsxstyle';
 
-let styles = {
+const styles = {
   button: {
     backgroundColor: '#ff0000',
     width: '320px',
@@ -12,7 +12,7 @@ let styles = {
   }
 };
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <Block textAlign="center">

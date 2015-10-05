@@ -1,8 +1,8 @@
 // https://github.com/js-next/react-style-webpack-plugin/issues/14
-let React = require('react');
-let StyleSheet = require('react-style');
+const React = require('react');
+const StyleSheet = require('react-style');
 
-let styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     textAlign: 'center'
   },
@@ -21,7 +21,7 @@ let styles = StyleSheet.create({
   }
 });
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div styles={styles.container}>

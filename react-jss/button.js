@@ -5,7 +5,7 @@ import useSheet from 'react-jss';
 
 jss.use(vendorPrefixer);
 
-let styles = {
+const styles = {
   '.container': {
     'text-align': 'center'
   },
@@ -31,7 +31,7 @@ let styles = {
   }
 };
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div className="container">

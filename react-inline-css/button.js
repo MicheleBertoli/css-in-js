@@ -1,7 +1,7 @@
 import React from 'react';
 import InlineCss from 'react-inline-css';
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <InlineCss stylesheet="

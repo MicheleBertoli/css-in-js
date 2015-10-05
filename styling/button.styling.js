@@ -1,10 +1,10 @@
 import styling from 'styling';
 
-export let container = styling({
+export const container = styling({
   textAlign: 'center'
 });
 
-export let button = styling({
+export const button = styling({
   backgroundColor: '#ff0000',
   width: 320,
   padding: 20,

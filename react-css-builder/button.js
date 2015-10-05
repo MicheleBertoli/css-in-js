@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactCSSBuilder from 'react-css-builder';
 
-let styles = ReactCSSBuilder.create({
+const styles = ReactCSSBuilder.create({
   container: {
     textAlign: 'center'
   },
@@ -15,7 +15,7 @@ let styles = ReactCSSBuilder.create({
   }
 });
 
-let Button = React.createClass({
+const Button = React.createClass({
   render() {
     return (
       <div style={styles.css('container')}>
