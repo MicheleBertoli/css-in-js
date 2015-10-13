@@ -31,7 +31,7 @@ const styles = {
   }
 };
 
-const Button = React.createClass({
+let Button = React.createClass({
   render() {
     return (
       <div className="container">
