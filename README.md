@@ -46,9 +46,11 @@ For example, if a package supports the css file extraction you can run the autop
 
 > ["Wow, this totally makes my week!"](https://twitter.com/dan_abramov/status/604260877622202368) - Dan Abramov
 
-[SurviveJS / Styling React](http://survivejs.com/webpack_react/styling_react/) by Juho Vepsäläinen
+[SurviveJS / Styling React](http://survivejs.com/webpack_react/styling_react) by Juho Vepsäläinen
 
 [React Inline Styles are Fundamentally Flawed](https://byjoeybaker.com/react-inline-styles) by Joey Baker
+
+[The Case for CSS Modules](http://markdalgleish.github.io/presentation-the-case-for-css-modules) by Mark Dalgleish
 
 ## Contributing
 If your package is not listed here, feel free to add it.
