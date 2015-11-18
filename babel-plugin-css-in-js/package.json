@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-css-in-js",
+  "version": "1.0.0",
+  "description": "babel-plugin-css-in-js - CSS in JS",
+  "scripts": {
+    "build": "webpack ./button.js bundle.js"
+  },
+  "author": "Martin Andert",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-css-in-js": "^0.1.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "webpack": "^1.12.6"
+  }
+}
