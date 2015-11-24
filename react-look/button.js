@@ -1,40 +1,39 @@
-import React, {Component} from 'react';
-import Look from 'react-look';
+import React, { Component } from 'react';
+import Look, { StyleSheet } from 'react-look';
 
 class Button extends Component {
-  look() {
-    return {
-      container: {
-        textAlign: 'center'
-      },
-      button: {
-        backgroundColor: '#ff0000',
-        width: '320px',
-        padding: '20px',
-        borderRadius: '5px',
-        border: 'none',
-        outline: 'none',
-        ':hover': {
-          color: '#fff',
-        },
-        ':active': {
-          position: 'relative',
-          top: '2px'
-        },
-        '@media (max-width: 480px)': {
-          width: '160px'
-        }
-      }
-    }
-  }
   render() {
     return (
-      <div look="container">
-        <button look="button">Click me!</button>
+      <div look={styles.container}>
+        <button look={styles.button}>Click me!</button>
       </div>
-    );
+      );
   }
 }
+
+const styles = StyleSheet.create(Button, {
+  container: {
+    textAlign: 'center'
+  },
+  button: {
+    backgroundColor: '#ff0000',
+    width: 320,
+    padding: 20,
+    borderRadius: 5,
+    border: 'none',
+    outline: 'none',
+    ':hover': {
+      color: '#fff'
+    },
+    ':active': {
+      position: 'relative',
+      top: 2
+    },
+    '@media (max-width: 480px)': {
+      width: 160
+    }
+  }
+})
 
 Button = Look(Button);
 

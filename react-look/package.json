@@ -1,6 +1,6 @@
 {
   "name": "react-look-css-in-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-look - CSS in JS",
   "scripts": {
     "build": "webpack ./button.js bundle.js"
@@ -8,8 +8,8 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "react": "^0.13.3",
-    "react-look": "^0.3.3"
+    "react": "^0.14.3",
+    "react-look": "^0.6.1"
   },
   "devDependencies": {
     "babel-loader": "^5.1.3",
