@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Look, { StyleSheet } from 'react-look';
+import Look, { StyleSheet } from 'react-look/dom';
 
 class Button extends Component {
   render() {
@@ -7,7 +7,7 @@ class Button extends Component {
       <div look={styles.container}>
         <button look={styles.button}>Click me!</button>
       </div>
-      );
+    );
   }
 }
 
