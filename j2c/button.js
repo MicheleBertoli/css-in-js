@@ -1,11 +1,11 @@
 import React from 'react';
 import j2c from 'j2c';
 
-const styles = j2c.scoped({
-  container: {
+const styles = j2c.sheet({
+  '.container': {
     'text-align': 'center'
   },
-  button: {
+  '.button': {
     'background-color': '#ff0000',
     width: '320px',
     padding: '20px',
