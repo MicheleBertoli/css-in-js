@@ -40,6 +40,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-styleable](https://github.com/pluralsight/react-styleable) | 1.4.0 | | x | x | | x |
 | [react-theme](https://github.com/azazdeaz/react-theme) | 0.1.4 | | | | x | |
 | [reactcss](https://github.com/casesandberg/reactcss) | 0.3.2 | x | | | x | |
+| [scope-styles](https://github.com/rtsao/scope-styles) | 0.6.0 |  | x | x | x | x |
 | [smart-css](https://github.com/hackhat/smart-css) | 1.1.1 | | x | x | x | |
 | [stilr](https://github.com/chriskjaer/stilr) | 1.1.0 | | x | x | x | x |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | x |
