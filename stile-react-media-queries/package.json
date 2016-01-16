@@ -1,0 +1,22 @@
+{
+  "name": "stile-react-media-queries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "button.js",
+  "scripts": {
+    "build": "webpack button.js bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-media-queries": "^2.0.1",
+    "stile": "^2.0.0",
+    "webpack": "^1.12.11"
+  }
+}

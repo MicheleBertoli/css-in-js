@@ -45,6 +45,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [smart-css](https://github.com/hackhat/smart-css) | 1.1.1 | | x | x | x | |
 | [stilr](https://github.com/kodyl/stilr) | 1.1.0 | | x | x | x | x |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | x |
+| [stile](https://github.com/bloodyowl/stile) + [react-media-queries](https://github.com/bloodyowl/react-media-queries) | 2.0.0 | x | | x | x | | |
 
 ## Testimonials
 
