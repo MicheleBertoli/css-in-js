@@ -16,8 +16,8 @@ npm run build && open index.html
 More crosses doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
-| Package | Version | Autoprefixer Included | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
-|---------|:-------:|:---------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
+| Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
+|---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
 | [babel-plugin-css-in-js](https://github.com/martinandert/babel-plugin-css-in-js) | 0.1.0 | x | x | x | x | x |
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | x | x | | |
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | x | x | x | |
