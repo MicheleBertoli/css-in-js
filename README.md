@@ -23,7 +23,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | x | x | x | |
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | x | x | | |
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | x | x | | x |
-| [j2c](https://github.com/pygy/j2c) | 0.10.0 | | x | x | x | x |
+| [j2c](https://github.com/j2css/j2c) | 0.10.0 | | x | x | x | x |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | x | | | x | |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.5 | x | x | x | x | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | x | |
@@ -43,14 +43,14 @@ For example, if a package supports the css file extraction you can run the autop
 | [reactcss](https://github.com/casesandberg/reactcss) | 0.3.2 | x | | | x | |
 | [scope-styles](https://github.com/rtsao/scope-styles) | 0.6.0 |  | x | x | x | x |
 | [smart-css](https://github.com/hackhat/smart-css) | 1.1.1 | | x | x | x | |
-| [stilr](https://github.com/chriskjaer/stilr) | 1.1.0 | | x | x | x | x |
+| [stilr](https://github.com/kodyl/stilr) | 1.1.0 | | x | x | x | x |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | x |
 
 ## Testimonials
 
 > ["Wow, this totally makes my week!"](https://twitter.com/dan_abramov/status/604260877622202368) - Dan Abramov
 
-[SurviveJS / Styling React](http://survivejs.com/webpack_react/styling_react) by Juho Vepsäläinen
+[SurviveJS / Styling React](http://survivejs.com/webpack_react/styling_react/) by Juho Vepsäläinen
 
 [React Inline Styles are Fundamentally Flawed](https://byjoeybaker.com/react-inline-styles) by Joey Baker
 
