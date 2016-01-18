@@ -1,4 +1,6 @@
 # CSS in JS
+
+[![Join the chat at https://gitter.im/MicheleBertoli/css-in-js](https://badges.gitter.im/MicheleBertoli/css-in-js.svg)](https://gitter.im/MicheleBertoli/css-in-js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 React: [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js) techniques comparison.
 
 ## Usage
