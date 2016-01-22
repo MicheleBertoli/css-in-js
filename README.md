@@ -23,6 +23,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | x | x | x | |
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | x | x | | |
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | x | x | | x |
+| [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | x | x | | x |
 | [hyperstyles](https://github.com/colingourlay/hyperstyles) | 3.3.0 | | x | x | | x |
 | [j2c](https://github.com/j2css/j2c) | 0.10.0 | | x | x | x | x |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | x | | | x | |

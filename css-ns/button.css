@@ -1,0 +1,28 @@
+.Button-container {
+  text-align: center;
+}
+
+.Button-button {
+  background-color: #ff0000;
+  width: 320px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.Button-button:hover {
+  color: #fff;
+}
+
+.Button-button:active {
+  position: relative;
+  top: 2px;
+}
+
+@media (max-width: 480px) {
+  .Button-button {
+    width: 160px
+  }
+}
+
