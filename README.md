@@ -35,7 +35,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | 1.2.0 | | x | x | | |
 | [react-inline](https://github.com/martinandert/react-inline) | 0.6.3 | x | x | x | x | x |
 | [react-inline-style](https://github.com/dowjones/react-inline-style) | 0.1.0 | x | x | x | x | |
-| [react-jss](https://github.com/jsstyles/react-jss) | 1.0.0 | x | x | x | x | |
+| [react-jss](https://github.com/jsstyles/react-jss) | 2.0.5 | x | x | x | x | x |
 | [react-look](https://github.com/rofrischmann/react-look) | 0.6.1 | x | x | x | x | |
 | [react-native-web](https://github.com/necolas/react-native-web) | 0.0.11 | x | | | x | x |
 | [react-statics-styles](https://github.com/elierotenberg/react-statics-styles) | 3.0.2 | | x | | x | x |
