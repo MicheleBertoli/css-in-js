@@ -1,46 +1,44 @@
+import './jss';
 import React from 'react';
-import jss from 'jss';
-import vendorPrefixer from 'jss-vendor-prefixer';
 import useSheet from 'react-jss';
 
-jss.use(vendorPrefixer);
-
 const styles = {
-  '.container': {
-    'text-align': 'center'
+  container: {
+    textAlign: 'center'
   },
-  '.button': {
-    'background-color': '#ff0000',
-    width: '320px',
-    padding: '20px',
-    'border-radius': '5px',
+  button: {
+    backgroundColor: '#ff0000',
+    width: 320,
+    padding: 20,
+    borderRadius: 5,
     border: 'none',
-    outline: 'none'
-  },
-  '.button:hover': {
-    color: '#fff',
-  },
-  '.button:active': {
-    position: 'relative',
-    top: '2px'
+    outline: 'none',
+    '&:hover': {
+      color: '#fff'
+    },
+    '&:active': {
+      position: 'relative',
+      top: 2
+    }
   },
   '@media (max-width: 480px)': {
-    '.button': {
-      width: '160px'
+    button: {
+      width: 160
     }
   }
 };
 
 let Button = React.createClass({
   render() {
+    const {classes} = this.props.sheet
     return (
-      <div className="container">
-        <button className="button">Click me!</button>
+      <div className={classes.container}>
+        <button className={classes.button}>Click me!</button>
       </div>
     );
   }
 });
 
-Button = useSheet(Button, styles, {named: false});
+Button = useSheet(Button, styles);
 
 React.render(<Button />, document.getElementById('content'));
