@@ -62,5 +62,7 @@ For example, if a package supports the css file extraction you can run the autop
 
 [The Case for CSS Modules](http://markdalgleish.github.io/presentation-the-case-for-css-modules) by Mark Dalgleish
 
+[First Class Styles](https://markdalgleish.github.io/presentation-first-class-styles) by Mark Dalgleish
+
 ## Contributing
 If your package is not listed here, feel free to add it.
