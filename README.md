@@ -27,7 +27,8 @@ For example, if a package supports the css file extraction you can run the autop
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | x | x | | x |
 | [cssx-loader](https://github.com/krasimir/cssx) | 3.8.0 | x | x | x | | x |
 | [hyperstyles](https://github.com/colingourlay/hyperstyles) | 3.3.0 | | x | x | | x |
-| [j2c](https://github.com/j2css/j2c) | 0.10.0 | | x | x | x | x |
+| [es-css-modules](https://github.com/jacobp100/es-css-modules) | 3.3.0 | | x | x | | x |
+| [j2c](https://github.com/j2css/j2c) | 0.10.0 | | x | x | | x |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | x | | | x | |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.5 | x | x | x | x | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | x | |

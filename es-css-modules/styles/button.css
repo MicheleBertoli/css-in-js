@@ -1,0 +1,28 @@
+.base {
+  border: none;
+  background: #CCD1D9;
+  margin: 0;
+  padding: 0.5em 1em;
+  border: 0;
+  transition: background 0.1s;
+}
+
+.base:hover {
+  background: #AAB2BD;
+}
+
+.primary {
+  background: #5D9CEC;
+}
+
+.primary:hover {
+  background: #4A89DC;
+}
+
+.danger {
+  background: #FC6E51;
+}
+
+.danger:hover {
+  background: #E9573F;
+}
