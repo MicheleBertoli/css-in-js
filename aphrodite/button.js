@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   }
 });
 
-class Button extends Component {
+export default class Button extends Component {
   render() {
     return (
       <div className={css(styles.container)}>
@@ -34,5 +34,3 @@ class Button extends Component {
     );
   }
 }
-
-React.render(<Button />, document.getElementById('content'));
