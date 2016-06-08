@@ -1,4 +1,5 @@
 import React from 'react';
+import {render} from 'react-dom';
 import {container, button} from './button.m.css';
 
 const Button = React.createClass({
@@ -11,4 +12,4 @@ const Button = React.createClass({
   }
 });
 
-React.render(<Button />, document.getElementById('content'));
+render(<Button />, document.getElementById('content'));
