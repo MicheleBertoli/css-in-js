@@ -1,31 +1,47 @@
-import React from 'react';
-import {Component} from 'reactcss';
+import React, { Component } from 'react';
+import reactCSS from 'reactcss';
 
 class Button extends Component {
-  classes() {
-    return  {
+  render() {
+    const styles = reactCSS({
       'default': {
-        container: {
-          textAlign: 'center'
-        },
         button: {
-          backgroundColor: '#ff0000',
-          width: '320px',
+          backgroundColor: '#333',
           padding: '20px',
           borderRadius: '5px',
           border: 'none',
           outline: 'none',
-        }
-      }
-    }
-  }
-  render() {
-    return (
-      <div is="container">
-        <button is="button">Click me!</button>
-      </div>
-    );
+          width: '100%'
+        },
+      },
+      'color-red': {
+        button: {
+          backgroundColor: '#ff0000',
+        },
+      },
+    }, this.props)
+
+    return <button style={ styles.button }>{ this.props.label }</button>
   }
 }
 
-React.render(<Button />, document.getElementById('content'));
+class Container extends Component {
+  render() {
+    const styles = reactCSS({
+      'default': {
+        container: {
+          width: '320px',
+          margin: '0px auto',
+        },
+      },
+    })
+
+    return (
+      <div style={ styles.container }>
+        <Button label="Click me!" color="red" />
+      </div>
+    )
+  }
+}
+
+React.render(<Container />, document.getElementById('content'));
