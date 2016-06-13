@@ -3,7 +3,7 @@ Container {
 }
 
 Button {
-  display: inline-block;
+  base: button;
   background-color: #ff0000;
   width: 320px;
   padding: 20px;
