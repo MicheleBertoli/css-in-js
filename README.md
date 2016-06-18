@@ -21,6 +21,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [aphrodite](https://github.com/Khan/aphrodite) | 0.1.2 | x | x | x | x | x |
 | [babel-plugin-css-in-js](https://github.com/martinandert/babel-plugin-css-in-js) | 1.2.2 | x | x | x | x | x |
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | x | x | | |
+| [cess-loader](https://github.com/irom-io/cess-loader) | 0.1.5 | | x | x | | x |
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | x | x | x | |
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | x | x | | |
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | x | x | | x |
