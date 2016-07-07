@@ -1,4 +1,8 @@
-const mechanisms = { CSS: 'CSS' }
+const mechanisms = {
+  CSS: 'CSS',
+  inline: 'Inline Styles',
+  mixed: 'Both'
+}
 
 export default {
   aphrodite: {
