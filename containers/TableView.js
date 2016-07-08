@@ -35,12 +35,20 @@ const defaultColumns = [
   'mechanism'
 ]
 
+// normalize data
+Object.keys(data).forEach(library => {
+  Object.keys(columnNames).forEach(column => {
+    if (!data[library].hasOwnProperty(column)) {
+      data[library][column] = false
+    }
+  })
+})
+
 export default class TableView extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
       sortBy: undefined,
-      sortAscending: true,
       allCollumns: true,
       filters: {
         vendorPrefixing: false,
@@ -97,8 +105,7 @@ export default class TableView extends Component {
 
   sortBy(column) {
     this.setState({
-      sortBy: this.state.sortBy === column && !this.state.sortAscending ? undefined : column,
-      sortAscending: this.state.sortBy === column ? !this.state.sortAscending : true
+      sortBy: this.state.sortBy === column ? undefined : column
     })
   }
 
@@ -129,9 +136,9 @@ export default class TableView extends Component {
       </Cell>
     ))
 
-    const sortData = Object.keys(data).sort(left => {
+    const sortData = Object.keys(data).sort((left, right) => {
       if (this.state.sortBy) {
-        if (data[left][this.state.sortBy] === this.state.sortAscending) {
+        if (data[left][this.state.sortBy] > data[right][this.state.sortBy]) {
           return -1
         } else {
           return 1
@@ -146,11 +153,14 @@ export default class TableView extends Component {
         return fulfilled
       }, true)
 
-      if (this.state.filter) {
-        return library.indexOf(this.state.filter) > -1 && fulfilled
-      }
+      if (fulfilled) {
+        if (this.state.filter) {
+          return library.indexOf(this.state.filter) > -1
+        }
 
-      return fulfilled
+        return true
+      }
+      return false
     })
 
     const libraries = sortData.map(library => this.renderRow(library, columns))
