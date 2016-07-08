@@ -1,7 +1,8 @@
 const mechanisms = {
   CSS: 'CSS',
+  CSSWithImportant: 'CSS + !important',
   inline: 'Inline Styles',
-  mixed: 'Both'
+  mixed: 'Inline Styles + CSS'
 }
 
 export default {
@@ -12,7 +13,15 @@ export default {
     pseudoClasses: true,
     mediaQueries: true,
     objectLiterals: true,
-    extractCSS: true
+    extractCSS: true,
+    keyframes: true,
+    fontFaces: true,
+    plugins: false,
+    fallback: false,
+    serverRendering: true,
+    frameworkAgnostic: true,
+    nativeSupport: false,
+    mechanism: mechanisms.CSSWithImportant
   },
   'babel-plugin-css-in-js': {
     url: 'https://github.com/martinandert/babel-plugin-css-in-js',
@@ -104,7 +113,7 @@ export default {
     objectLiterals: false,
     extractCSS: true
   },
-  Fela: {
+  fela: {
     url: 'https://github.com/rofrischmann/fela',
     version: '1.0.3',
     vendorPrefixing: true,
@@ -146,7 +155,15 @@ export default {
     pseudoClasses: true,
     mediaQueries: true,
     objectLiterals: true,
-    extractCSS: false
+    extractCSS: false,
+    keyframes: true,
+    fontFaces: false,
+    plugins: true,
+    fallback: true,
+    serverRendering: true,
+    frameworkAgnostic: false,
+    nativeSupport: false,
+    mechanism: mechanisms.mixed
   },
   'react-css-builder': {
     url: 'https://github.com/jhudson8/react-css-builder',
@@ -227,7 +244,15 @@ export default {
     pseudoClasses: true,
     mediaQueries: true,
     objectLiterals: true,
-    extractCSS: false
+    extractCSS: false,
+    keyframes: true,
+    fontFaces: true,
+    plugins: true,
+    fallback: true,
+    serverRendering: true,
+    frameworkAgnostic: false,
+    nativeSupport: true,
+    mechanism: mechanisms.CSS
   },
 
   'react-native-web': {
@@ -336,7 +361,15 @@ export default {
     pseudoClasses: true,
     mediaQueries: true,
     objectLiterals: true,
-    extractCSS: true
+    extractCSS: true,
+    keyframes: false,
+    fontFaces: false,
+    plugins: false,
+    fallback: true,
+    serverRendering: true,
+    frameworkAgnostic: true,
+    nativeSupport: false,
+    mechanism: mechanisms.CSS
   },
   styling: {
     url: 'https://github.com/andreypopp/styling',
