@@ -4,7 +4,7 @@ React: [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js) techniques com
 ## Usage
 Inside each package folder, run:
 
-```
+```bash
 npm i
 npm run build && open index.html
 ```
@@ -18,7 +18,6 @@ For example, if a package supports the css file extraction you can run the autop
 
 | Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
 |---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
-| [@threepointone/react-css](https://github.com/threepointone/react-css) | 1.2.1 | x | x | x | x | x |
 | [aphrodite](https://github.com/Khan/aphrodite) | 0.1.2 | x | x | x | x | x |
 | [babel-plugin-css-in-js](https://github.com/martinandert/babel-plugin-css-in-js) | 1.2.2 | x | x | x | x | x |
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | x | x | | |
@@ -28,8 +27,8 @@ For example, if a package supports the css file extraction you can run the autop
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | x | x | | x |
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | x | x | | x |
 | [cssx-loader](https://github.com/krasimir/cssx) | 3.8.0 | x | x | x | | x |
-| [hyperstyles](https://github.com/colingourlay/hyperstyles) | 3.3.0 | | x | x | | x |
 | [es-css-modules](https://github.com/jacobp100/es-css-modules) | 1.2.3 | | x | x | | x |
+| [hyperstyles](https://github.com/colingourlay/hyperstyles) | 3.3.0 | | x | x | | x |
 | [j2c](https://github.com/j2css/j2c) | 0.10.0 | | x | x | x | x |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | x | | | x | |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.5 | x | x | x | x | |
@@ -39,8 +38,8 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-cxs](https://github.com/jxnblk/react-cxs) | 1.0.0-beta.4 | | x | x | x | x |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | 0.6.0 | | x | x | x | x |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | 1.2.0 | | x | x | | |
-| [react-inline](https://github.com/martinandert/react-inline) | 0.6.3 | x | x | x | x | x |
 | [react-inline-style](https://github.com/dowjones/react-inline-style) | 0.1.0 | x | x | x | x | |
+| [react-inline](https://github.com/martinandert/react-inline) | 0.6.3 | x | x | x | x | x |
 | [react-jss](https://github.com/jsstyles/react-jss) | 2.0.5 | x | x | x | x | x |
 | [react-look](https://github.com/rofrischmann/react-look) | 0.6.1 | x | x | x | x | |
 | [react-native-web](https://github.com/necolas/react-native-web) | 0.0.11 | x | | | x | x |
@@ -54,9 +53,10 @@ For example, if a package supports the css file extraction you can run the autop
 | [reactcss](https://github.com/casesandberg/reactcss) | 0.3.2 | x | | | x | |
 | [scope-styles](https://github.com/rtsao/scope-styles) | 0.6.0 |  | x | x | x | x |
 | [smart-css](https://github.com/hackhat/smart-css) | 1.1.1 | | x | x | x | |
+| [stile](https://github.com/bloodyowl/stile) + [react-media-queries](https://github.com/bloodyowl/react-media-queries) | 2.0.0 | x | | x | x | | |
 | [stilr](https://github.com/kodyl/stilr) | 1.1.0 | | x | x | x | x |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | x |
-| [stile](https://github.com/bloodyowl/stile) + [react-media-queries](https://github.com/bloodyowl/react-media-queries) | 2.0.0 | x | | x | x | | |
+| [@threepointone/react-css](https://github.com/threepointone/react-css) | 1.2.1 | x | x | x | x | x |
 
 ## Testimonials
 
@@ -71,4 +71,5 @@ For example, if a package supports the css file extraction you can run the autop
 [First Class Styles](https://markdalgleish.github.io/presentation-first-class-styles) by Mark Dalgleish
 
 ## Contributing
+
 If your package is not listed here, feel free to add it.
