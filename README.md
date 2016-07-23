@@ -18,6 +18,7 @@ For example, if a package supports the css file extraction you can run the autop
 
 | Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
 |---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
+| [@threepointone/react-css](https://github.com/threepointone/react-css) | 1.2.1 | x | x | x | x | x |
 | [aphrodite](https://github.com/Khan/aphrodite) | 0.1.2 | x | x | x | x | x |
 | [babel-plugin-css-in-js](https://github.com/martinandert/babel-plugin-css-in-js) | 1.2.2 | x | x | x | x | x |
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | x | x | | |
