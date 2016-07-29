@@ -8,7 +8,7 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "@threepointone/react-css": "^1.2.1",
+    "glamor": "^2.1.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1"
   },

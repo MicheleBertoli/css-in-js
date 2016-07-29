@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { style, hover, active, media } from '@threepointone/react-css';
+import { style, hover, active, media } from 'glamor';
 
 const button = {
   backgroundColor: '#ff0000',
