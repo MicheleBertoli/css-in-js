@@ -1,7 +1,7 @@
 {
-  "name": "threepointone-react-css-css-in-js",
+  "name": "glamor-css-css-in-js",
   "version": "1.0.0",
-  "description": "threepointone-react-css - CSS in JS",
+  "description": "glamor - CSS in JS",
   "scripts": {
     "build": "webpack ./button.js bundle.js"
   },
