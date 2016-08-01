@@ -31,9 +31,9 @@ const mapStylesToProps = props => renderer => ({
   button: renderer.renderRule(button)
 })
 
-const Button = connect(mapStylesToProps)(() => (
-  <div className={renderer.renderRule(container)}>
-    <button className={renderer.renderRule(button)}>Click me!</button>
+const Button = connect(mapStylesToProps)(({ styles }) => (
+  <div className={styles.container}>
+    <button className={styles.button}>Click me!</button>
   </div>
 ));
 
