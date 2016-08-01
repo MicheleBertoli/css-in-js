@@ -1,0 +1,23 @@
+{
+  "name": "react-fela-css-in-js",
+  "version": "1.0.0",
+  "description": "react-fela - CSS in JS",
+  "scripts": {
+    "build": "webpack ./button.js bundle.js"
+  },
+  "author": "Michele Bertoli",
+  "license": "MIT",
+  "dependencies": {
+    "fela": "^1.1.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-fela": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.1"
+  }
+}

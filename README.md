@@ -37,6 +37,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-css-components](https://github.com/andreypopp/react-css-components) | 0.6.9 | | x | x | | x |
 | [react-css-modules](https://github.com/gajus/react-css-modules) | 3.0.2 | | x | x | | x |
 | [react-cxs](https://github.com/jxnblk/react-cxs) | 1.0.0-beta.4 | | x | x | x | x |
+| [react-fela](https://github.com/rofrischmann/react-fela) | 2.1.0 | x | x | x | x | x |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | 0.6.0 | | x | x | x | x |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | 1.2.0 | | x | x | | |
 | [react-inline-style](https://github.com/dowjones/react-inline-style) | 0.1.0 | x | x | x | x | |
