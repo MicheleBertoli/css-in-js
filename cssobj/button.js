@@ -1,6 +1,5 @@
 import React from 'react'
 import cssobj from 'cssobj'
-import cssText from 'cssobj-plugin-post-csstext'
 
 const obj = {
   '.container':{
@@ -9,7 +8,6 @@ const obj = {
   '.button':{
     // auto vendor prefix below
     appearance: 'none',
-    boxReflect: 'below 4px linear-gradient(transparent, white)',
     backgroundColor: '#ff0000',
     width: '320px',
     padding: '20px',
@@ -34,29 +32,21 @@ class Button extends React.Component {
     super(props)
 
     this.state = {
-      obj: obj,
       result: cssobj(obj, {
-        local: true,
-        onUpdate: cssText(updateResult)
+        local: true
       })
     }
-    this.updateCSS = this.updateCSS.bind(this)
   }
 
   mapClass(list) {
     return this.state.result.mapClass(list)
   }
 
-  updateCSS() {
-    this.state.obj['.button'].fontSize = 16 + Math.random()*20 + 'px'
-    this.state.result.update()
-  }
-
   render() {
     return (
-      <div className={this.mapClass('container')} onClick={this.updateCSS}>
+      <div className={this.mapClass('container')}>
         <button className={this.mapClass('button')}>
-          [+ click me +]
+          Click me!
         </button>
       </div>
     )
@@ -66,7 +56,3 @@ class Button extends React.Component {
 React.render(<Button />, document.getElementById('content'))
 
 
-
-// helper function to display cssText from CSSOM
-
-function updateResult (css){ document.getElementById('result').value = css }
