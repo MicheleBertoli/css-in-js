@@ -26,6 +26,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | x | x | | |
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | x | x | | x |
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | x | x | | x |
+| [cssobj](https://github.com/cssobj/cssobj) | 0.2.21 | x | x | x | x | |
 | [cssx-loader](https://github.com/krasimir/cssx) | 3.8.0 | x | x | x | | x |
 | [es-css-modules](https://github.com/jacobp100/es-css-modules) | 1.2.3 | | x | x | | x |
 | [glamor](https://github.com/threepointone/glamor) | 2.1.0 | x | x | x | x | x |
