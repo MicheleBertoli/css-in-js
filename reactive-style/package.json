@@ -1,0 +1,25 @@
+{
+  "name": "reactive-style-css-in-js",
+  "version": "1.0.0",
+  "description": "Reactive Style - CSS in JS",
+  "scripts": {
+    "build": "webpack ./button.js bundle.js"
+  },
+  "author": "Michele Bertoli",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "reactive-style": "*"
+  },
+  "babel": {
+    "presets": ["es2015", "stage-1", "react"]
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "webpack": "^1.13.1"
+  }
+}
