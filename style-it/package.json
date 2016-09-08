@@ -1,5 +1,5 @@
 {
-  "name": "reactive-style-css-in-js",
+  "name": "style-it-css-in-js",
   "version": "1.0.0",
   "description": "Reactive Style - CSS in JS",
   "scripts": {
@@ -10,10 +10,14 @@
   "dependencies": {
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "reactive-style": "1.0.0"
+    "style-it": "^1.2.9"
   },
   "babel": {
-    "presets": ["es2015", "stage-1", "react"]
+    "presets": [
+      "es2015",
+      "stage-1",
+      "react"
+    ]
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
