@@ -74,6 +74,8 @@ For example, if a package supports the css file extraction you can run the autop
 
 [First Class Styles](https://markdalgleish.github.io/presentation-first-class-styles) by Mark Dalgleish
 
+[Styling React.JS applications](https://www.youtube.com/watch?v=19gqsBc_Cx0) by Max Stoiber
+
 ## Contributing
 
 If your package is not listed here, feel free to add it.
