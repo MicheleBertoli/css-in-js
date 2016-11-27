@@ -61,6 +61,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [style-it](https://github.com/buildbreakdo/style-it) | 1.2.9 | | x | x | | |
 | [styled-components](https://github.com/styled-components/styled-components) | 1.0.3 | x | x | x | | |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | x | | x | x |
+| [uranium](https://github.com/tuckerconnelly/uranium) | 0.1.2 | | | x | x | |
 
 ## Testimonials
 
