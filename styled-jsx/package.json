@@ -1,0 +1,22 @@
+{
+  "name": "styled-jsx-css-in-js",
+  "version": "1.0.0",
+  "description": "styled-jsx - CSS in JS",
+  "scripts": {
+    "build": "webpack ./button.js bundle.js"
+  },
+  "author": "Michele Bertoli",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "styled-jsx": "0.0.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.1"
+  }
+}
