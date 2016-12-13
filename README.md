@@ -23,7 +23,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | x | x | | |
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | x | x | x | |
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | x | x | | |
-| [css-constructor](https://github.com/siddharthkp/css-constructor) | 0.0.4 | | | | | |
+| [css-constructor](https://github.com/siddharthkp/css-constructor) | 0.1.1 | x | x | x | | |
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | x | x | | x |
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | x | x | | x |
 | [cssobj](https://github.com/cssobj/cssobj) | 0.2.21 | x | x | x | x | |

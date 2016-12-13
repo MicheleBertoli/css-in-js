@@ -23,6 +23,18 @@ class Button extends Component {
     border-radius: 5px;
     border: none;
     outline: none;
+    &:hover {
+      color: #fff;
+    }
+    &:active {
+     position: relative;
+     top: 2px;
+    }
+    @media (max-width: 480px) {
+      & {
+        width: 160px;
+      }
+    }
   `;
 
   render() {
