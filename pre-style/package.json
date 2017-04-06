@@ -1,0 +1,30 @@
+{
+  "name": "Pre-Style-css-in-js",
+  "version": "1.0.0",
+  "description": "Pre-Style - CSS in JS",
+  "scripts": {
+    "build": "webpack ./button.js bundle.js"
+  },
+  "author": "Benjamin Solum",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.5.0",
+    "babel-core": "6.16.0",
+    "babel-eslint": "7.0.0",
+    "babel-loader": "6.2.5",
+    "babel-plugin-pre-style": "^1.0.9-alpha",
+    "babel-preset-es2015": "6.16.0",
+    "babel-preset-react": "6.16.0",
+    "css-loader": "0.25.0",
+    "cssnano": "3.7.5",
+    "node-sass": "3.10.0",
+    "postcss-loader": "0.13.0",
+    "sass-loader": "4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "1.13.2"
+  }
+}
