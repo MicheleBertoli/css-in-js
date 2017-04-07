@@ -22,7 +22,7 @@ const MyStyledButton = glamorous.button({
 });
 
 const Button = () => (
-  // Div could also be used through the glamorous namespace such as glamorous.Div
+  // Div could also be used like: <glamorous.Div></glamorous.Div>
   <Div textAlign="center">
     <MyStyledButton>
       Click me!
