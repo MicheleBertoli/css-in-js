@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import glamorous from 'glamorous';
+import glamorous, { Div } from 'glamorous';
 
 const MyStyledButton = glamorous.button({
   backgroundColor: '#ff0000',
@@ -22,11 +22,12 @@ const MyStyledButton = glamorous.button({
 });
 
 const Button = () => (
-  <glamorous.Div textAlign="center">
+  // Div could also be used through the glamorous namespace such as glamorous.Div
+  <Div textAlign="center">
     <MyStyledButton>
       Click me!
     </MyStyledButton>
-  </glamorous.Div>
+  </Div>
 );
 
 ReactDOM.render(<Button />, document.getElementById('content'));
