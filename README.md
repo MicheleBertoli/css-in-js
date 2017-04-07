@@ -34,6 +34,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [hyperstyles](https://github.com/colingourlay/hyperstyles) | 3.3.0 | | x | x | | x |
 | [j2c](https://github.com/j2css/j2c) | 0.10.0 | | x | x | x | x |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | x | | | x | |
+| [pre-style](https://github.com/soluml/pre-style) | 1.0.9-alpha | | x | x | | x |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.5 | x | x | x | x | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | x | |
 | [react-css-components](https://github.com/andreypopp/react-css-components) | 0.6.9 | | x | x | | x |
