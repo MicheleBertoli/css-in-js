@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import glamorous, { Div } from 'glamorous';
+import glamorous from 'glamorous';
+const Div = glamorous;
 
 const MyStyledButton = glamorous.button({
   backgroundColor: '#ff0000',
