@@ -345,7 +345,7 @@ export default {
     objectLiterals: true,
     extractCSS: true
   },
-  'scope-styles': {
+  'smart-css': {
     url: 'https://github.com/hackhat/smart-css',
     version: '1.1.1',
     vendorPrefixing: false,
