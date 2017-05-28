@@ -4,12 +4,14 @@
   "version": "1.0.0",
   "description": "Comparison of css-in-js solutions",
   "license": "MIT",
+  "homepage": "https://stereobooster.github.io/css-in-js",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "reactabular-table": "^8.9.0"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "react-scripts": "1.0.7"
   },
   "scripts": {
@@ -17,6 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write './src/**/*.js'"
+    "prettier": "prettier --write './src/**/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
