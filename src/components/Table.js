@@ -73,6 +73,61 @@ const columns = [
     },
     ...boolCellFormatter
   },
+  {
+    property: 'keyframes',
+    header: {
+      label: 'keyframes',
+    },
+    ...boolCellFormatter
+  },
+  {
+    property: 'fontFaces',
+    header: {
+      label: 'Font-faces',
+    },
+    ...boolCellFormatter
+  },
+  {
+    property: 'plugins',
+    header: {
+      label: 'Plugins',
+    },
+    ...boolCellFormatter
+  },
+  {
+    property: 'fallback',
+    header: {
+      label: 'Fallback',
+    },
+    ...boolCellFormatter
+  },
+  {
+    property: 'serverRendering',
+    header: {
+      label: 'Server rendering',
+    },
+    ...boolCellFormatter
+  },
+  {
+    property: 'frameworkAgnostic',
+    header: {
+      label: 'Framework agnostic',
+    },
+    ...boolCellFormatter
+  },
+  {
+    property: 'nativeSupport',
+    header: {
+      label: 'Native support',
+    },
+    ...boolCellFormatter
+  },
+  {
+    header: {
+      label: 'Mechanism',
+    },
+    property: 'mechanism'
+  }
 ];
 
 // https://reactabular.js.org/#/examples/all-features
@@ -80,7 +135,7 @@ const columns = [
 class Table extends Component {
   render() {
     return (
-      <Provider className="table" columns={columns} cellSpacing="0">
+      <Provider className="table is-narrow" columns={columns} cellSpacing="0">
         <Header/>
         <Body rows={rows} rowKey="id" />
       </Provider>
