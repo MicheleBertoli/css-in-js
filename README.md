@@ -13,7 +13,7 @@ npm run build && open index.html
 
 **How to read the table**
 
-More crosses doesn't mean "better", it depends on your needs.
+More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
 | Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
