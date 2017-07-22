@@ -40,6 +40,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | ✓ | |
 | [react-css-components](https://github.com/andreypopp/react-css-components) | 0.6.9 | | ✓ | ✓ | | ✓ |
 | [react-css-modules](https://github.com/gajus/react-css-modules) | 3.0.2 | | ✓ | ✓ | | ✓ |
+| [react-cssom](https://github.com/mbasso/react-cssom) | 1.0.0 | | ✓ | ✓ | | ✓ |
 | [react-cxs](https://github.com/jxnblk/react-cxs) | 1.0.0-beta.4 | | ✓ | ✓ | ✓ | ✓ |
 | [react-fela](https://github.com/rofrischmann/fela/tree/master/packages/react-fela) | 2.1.0 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | 0.6.0 | | ✓ | ✓ | ✓ | ✓ |

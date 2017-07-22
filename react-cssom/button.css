@@ -1,0 +1,28 @@
+.⚛Container {
+  text-align: center;
+}
+
+.⚛Button {
+  background-color: #ff0000;
+  width: 320px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.⚛Button:hover {
+  color: #fff;
+}
+
+.⚛Button:active {
+  position: relative;
+  top: 2px;
+}
+
+@media (max-width: 480px) {
+  .⚛Button {
+    width: 160px
+  }
+}
+
