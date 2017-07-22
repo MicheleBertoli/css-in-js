@@ -32,6 +32,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [glamor](https://github.com/threepointone/glamor) | 2.1.0 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [glamorous](https://github.com/paypal/glamorous) | 1.0.1 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [hyperstyles](https://github.com/colingourlay/hyperstyles) | 3.3.0 | | ✓ | ✓ | | ✓ |
+| [i-css](https://github.com/irom-io/i-css) | 0.3.2 | | ✓ | ✓ | ✓ | |
 | [j2c](https://github.com/j2css/j2c) | 0.10.0 | | ✓ | ✓ | ✓ | ✓ |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | ✓ | | | ✓ | |
 | [pre-style](https://github.com/soluml/pre-style) | 1.0.9-alpha | | ✓ | ✓ | | ✓ |
