@@ -28,6 +28,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | ✓ | ✓ | | ✓ |
 | [cssobj](https://github.com/cssobj/cssobj) | 0.2.21 | ✓ | ✓ | ✓ | ✓ | |
 | [cssx-loader](https://github.com/krasimir/cssx) | 3.8.0 | ✓ | ✓ | ✓ | | ✓ |
+| [emotion](https://github.com/tkh44/emotion) | 6.0.3 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [es-css-modules](https://github.com/jacobp100/es-css-modules) | 1.2.3 | | ✓ | ✓ | | ✓ |
 | [glamor](https://github.com/threepointone/glamor) | 2.1.0 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [glamorous](https://github.com/paypal/glamorous) | 1.0.1 | ✓ | ✓ | ✓ | ✓ | ✓ |
