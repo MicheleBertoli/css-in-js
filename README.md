@@ -20,6 +20,7 @@ For example, if a package supports the css file extraction you can run the autop
 |---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
 | [aphrodite](https://github.com/Khan/aphrodite) | 0.1.2 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [babel-plugin-css-in-js](https://github.com/martinandert/babel-plugin-css-in-js) | 1.2.2 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [babel-plugin-pre-style](https://github.com/soluml/babel-plugin-pre-style) | 1.0.9-alpha | | ✓ | ✓ | ✓ | ✓ |
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | ✓ | ✓ | | |
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | ✓ | ✓ | ✓ | |
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | ✓ | ✓ | | |
