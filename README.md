@@ -67,6 +67,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [styled-jsx](https://github.com/zeit/styled-jsx) | 0.0.7 | ✓ | ✓ | ✓ | | ✓ |
 | [styletron-react](https://github.com/rtsao/styletron) | 2.1.2 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | ✓ | | ✓ | ✓ |
+| [superstyle](https://github.com/jxnblk/superstyle) | ^1.0.0-1 | | | | ✓ | |
 | [typestyle](https://github.com/typestyle/typestyle) | 0.22.3 | | ✓ | ✓ | ✓ | ✓ |
 | [uranium](https://github.com/tuckerconnelly/uranium) | 0.1.2 | | | ✓ | ✓ | |
 
