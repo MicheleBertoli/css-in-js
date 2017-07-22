@@ -1,0 +1,22 @@
+{
+  "name": "restyles-css-in-js",
+  "version": "1.0.0",
+  "description": "restyles - css-in-js",
+  "scripts": {
+    "build": "webpack ./button.js bundle.js"
+  },
+  "author": "Michele Bertoli",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "restyles": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.3.0"
+  }
+}
