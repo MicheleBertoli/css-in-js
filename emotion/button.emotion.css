@@ -1,0 +1,11 @@
+.css-Container-10pov3x { text-align: center; }
+.css-Button-1wslxb2 { background-color: #ff0000;
+  width: 320px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none; }
+.css-Button-1wslxb2:hover { color: #fff; }
+.css-Button-1wslxb2:active { position: relative; top: 2px; }
+@media (max-width: 480px) {
+ .css-Button-1wslxb2 { width: 160px; } }
