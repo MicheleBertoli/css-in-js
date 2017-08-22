@@ -9,7 +9,7 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "aphrodite": "0.3.1",
+    "aphrodite": "1.2.3",
     "react": "15.1.0"
   },
   "devDependencies": {
