@@ -67,7 +67,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [stilr](https://github.com/kodyl/stilr) | 1.1.0 | | ✓ | ✓ | ✓ | ✓ |
 | [style-it](https://github.com/buildbreakdo/style-it) | 1.2.9 | | ✓ | ✓ | | |
 | [styled-components](https://github.com/styled-components/styled-components) | 1.0.3 | ✓ | ✓ | ✓ | | |
-| [styled-jsx](https://github.com/zeit/styled-jsx) | 0.0.7 | ✓ | ✓ | ✓ | | ✓ |
+| [styled-jsx](https://github.com/zeit/styled-jsx) | 1.0.10 | ✓ | ✓ | ✓ | | ✓ |
 | [styletron-react](https://github.com/rtsao/styletron) | 2.1.2 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 | | ✓ | | ✓ | ✓ |
 | [superstyle](https://github.com/jxnblk/superstyle) | 1.0.0-1 | | | | ✓ | |
