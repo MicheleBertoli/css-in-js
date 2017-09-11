@@ -37,7 +37,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [i-css](https://github.com/irom-io/i-css) | 0.3.2 | | ✓ | ✓ | ✓ | |
 | [j2c](https://github.com/j2css/j2c) | 0.10.0 | | ✓ | ✓ | ✓ | ✓ |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | ✓ | | | ✓ | |
-| [linaria](https://github.com/callstack-io/linaria) | 0.0.2-alpha.0 | | ✓ | ✓ | | ✓ |
+| [linaria](https://github.com/callstack-io/linaria) | 0.0.2-alpha.0 | ✓ | ✓ | ✓ | | ✓ |
 | [pre-style](https://github.com/soluml/pre-style) | 1.0.9-alpha | | ✓ | ✓ | | ✓ |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.5 | ✓ | ✓ | ✓ | ✓ | |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 | | | | ✓ | |
