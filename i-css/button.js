@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {renderCss, addStyles} from 'i-css';
 
-const button = {
+const button = addStyles({
     container: {
         textAlign: 'center'
     },
@@ -30,8 +30,7 @@ const button = {
             margin: 0
         }
     },
-};
-addStyles(button);
+});
 
 class Button extends Component {
     render() {
