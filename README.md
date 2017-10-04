@@ -16,8 +16,8 @@ npm run build && open index.html
 More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
-| Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
-|---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
+| Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File | Emit CSS only when component rendered for the first time | CSS property shorthand notation |
+|---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|:--------------------------------------------------------:|:-------------------------------:|
 | [aphrodite](https://github.com/Khan/aphrodite) | 1.2.3 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [babel-plugin-css-in-js](https://github.com/martinandert/babel-plugin-css-in-js) | 1.2.2 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [babel-plugin-pre-style](https://github.com/soluml/babel-plugin-pre-style) | 1.0.9-alpha | | ✓ | ✓ | ✓ | ✓ |
@@ -25,6 +25,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | ✓ | ✓ | ✓ | |
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | ✓ | ✓ | | |
 | [css-constructor](https://github.com/siddharthkp/css-constructor) | 0.1.1 | ✓ | ✓ | ✓ | | |
+| [css-ligth](https://github.com/streamich/css-light) | 1.1.0 | | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | ✓ | ✓ | | ✓ |
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | ✓ | ✓ | | ✓ |
 | [cssobj](https://github.com/cssobj/cssobj) | 0.2.21 | ✓ | ✓ | ✓ | ✓ | |

@@ -3,3 +3,5 @@ node_modules/
 bundle.css
 bundle.js
 .idea
+.DS_Store
+yarn.lock
