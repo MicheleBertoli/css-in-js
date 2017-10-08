@@ -25,6 +25,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [classy](https://github.com/inturn/classy) | 0.3.0 | | ✓ | ✓ | ✓ | |
 | [csjs](https://github.com/rtsao/csjs) | 1.0.0 | | ✓ | ✓ | | |
 | [css-constructor](https://github.com/siddharthkp/css-constructor) | 0.1.1 | ✓ | ✓ | ✓ | | |
+| [css-light](https://github.com/streamich/css-light) | 1.1.0 | | ✓ | ✓ | ✓ | ✓ |
 | [css-loader](https://github.com/webpack/css-loader) | 0.15.6 | | ✓ | ✓ | | ✓ |
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 | | ✓ | ✓ | | ✓ |
 | [cssobj](https://github.com/cssobj/cssobj) | 0.2.21 | ✓ | ✓ | ✓ | ✓ | |
