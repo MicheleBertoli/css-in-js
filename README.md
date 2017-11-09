@@ -16,9 +16,9 @@ npm run build && open index.html
 More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
-| Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
-|---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|
-| [aphrodite](https://github.com/Khan/aphrodite) | 1.2.3 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File | Stars |
+|---------|:-------:|:--------------------------:|:--------------:|:-------------:|:-------------------------:|:----------------:|:-----:|
+| [aphrodite](https://github.com/Khan/aphrodite) | [![npm](https://img.shields.io/npm/v/aphrodite.svg)](https://github.com/Khan/aphrodite) | ✓ | ✓ | ✓ | ✓ | ✓ | [![GitHub stars](https://img.shields.io/github/stars/Khan/aphrodite.svg?style=social&label=Stars&style=plastic)]() |
 | [babel-plugin-css-in-js](https://github.com/martinandert/babel-plugin-css-in-js) | 1.2.2 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [babel-plugin-pre-style](https://github.com/soluml/babel-plugin-pre-style) | 1.0.9-alpha | | ✓ | ✓ | ✓ | ✓ |
 | [bloody-react-styled](https://github.com/bloodyowl/react-styled) | 3.0.0 | | ✓ | ✓ | | |
