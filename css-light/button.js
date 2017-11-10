@@ -7,19 +7,19 @@ class Button extends Comp {
     '.container': {
       ta: 'center',
       '.button': {
-      bg: 'red',
-      w: '320px',
-      pad: '20px',
-      bdrad: '5px',
-      bd: 'none',
-      outline: 'none',
-      '&:hover': {
-        col: '#fff',
-      },
-      '&:active': {
-        pos: 'relative',
-        top: '2px',
-      },
+        bg: 'red',
+        w: '320px',
+        pad: '20px',
+        bdrad: '5px',
+        bd: 'none',
+        outline: 'none',
+        '&:hover': {
+          col: '#fff',
+        },
+        '&:active': {
+          pos: 'relative',
+          top: '2px',
+        },
       },
     },
     '@media (max-width: 480px)': {
