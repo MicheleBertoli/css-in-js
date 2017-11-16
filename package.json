@@ -7,20 +7,21 @@
   "homepage": "",
   "dependencies": {
     "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "reactabular-table": "^8.12.0"
+    "react-dom": "^16.1.1"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
+    "marked": "^0.3.6",
     "react-scripts": "^1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",
+    "build-data": "./scripts/parse_readme.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prettier": "prettier --write '{src/**/*,*}.{js,json,css}'",
-    "predeploy": "npm run build",
+    "prettier": "prettier --write '{src/**/*,*,scripts/*}.{js,json,css}'",
+    "predeploy": "npm run build-data && npm run build",
     "deploy": "gh-pages -d build"
   }
 }
