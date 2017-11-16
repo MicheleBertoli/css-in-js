@@ -4,15 +4,15 @@
   "version": "1.0.0",
   "description": "Comparison of css-in-js solutions",
   "license": "MIT",
-  "homepage": "https://stereobooster.github.io/css-in-js",
+  "homepage": "",
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "reactabular-table": "^8.9.0"
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "reactabular-table": "^8.12.0"
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.7"
+    "react-scripts": "^1.0.17"
   },
   "scripts": {
     "start": "react-scripts start",
