@@ -1,156 +1,33 @@
-import React, { Component } from "react";
-import { Provider, Header, Body } from "reactabular-table";
-import { default as data } from "./../data";
+import React from "react";
 
-const rows = Object.keys(data).map(key => {
-  let x = data[key];
-  x.id = key;
-  return x;
-});
-
-const boolFormatter = x => {
-  if (x === undefined) {
-    return "?";
+const Cell = options => {
+  const { header, value } = options;
+  if (header == "Package") {
+    return <td dangerouslySetInnerHTML={{ __html: value }} />;
   } else {
-    return x ? "✔️" : "";
+    return <td>{value}</td>;
   }
 };
 
-const boolCellFormatter = {
-  cell: {
-    formatters: [boolFormatter]
-  }
+const Row = options => {
+  const { row, headers } = options;
+  return (
+    <tr>{headers.map(x => <Cell key={x} header={x} value={row[x]} />)}</tr>
+  );
 };
 
-const columns = [
-  {
-    property: "id",
-    header: {
-      label: "Package"
-    },
-    cell: {
-      formatters: [
-        (name, extraParameters) => (
-          <a
-            href={extraParameters.rowData.url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {name}
-          </a>
-        )
-      ]
-    }
-  },
-  {
-    property: "version",
-    header: {
-      label: "Version"
-    }
-  },
-  {
-    property: "vendorPrefixing",
-    header: {
-      label: "Automatic Vendor Prefixing"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "pseudoClasses",
-    header: {
-      label: "Pseudo Classes"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "mediaQueries",
-    header: {
-      label: "Media Queries"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "objectLiterals",
-    header: {
-      label: "Styles As Object Literals"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "extractCSS",
-    header: {
-      label: "Extract CSS File"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "keyframes",
-    header: {
-      label: "keyframes"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "fontFaces",
-    header: {
-      label: "Font-faces"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "plugins",
-    header: {
-      label: "Plugins"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "fallback",
-    header: {
-      label: "Fallback"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "serverRendering",
-    header: {
-      label: "Server rendering"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "frameworkAgnostic",
-    header: {
-      label: "Framework agnostic"
-    },
-    ...boolCellFormatter
-  },
-  {
-    property: "nativeSupport",
-    header: {
-      label: "Native support"
-    },
-    ...boolCellFormatter
-  },
-  {
-    header: {
-      label: "Mechanism"
-    },
-    property: "mechanism"
-  }
-];
-
-// https://reactabular.js.org/#/examples/all-features
-
-class Table extends Component {
-  render() {
-    return (
-      <Provider className="table table-responsive" columns={columns}>
-        <Header />
-        <Body rows={rows} rowKey="id" />
-      </Provider>
-    );
-  }
-}
+const Table = options => {
+  const { data } = options;
+  return (
+    <table className="table table-responsive">
+      <thead>{data.headers.map(x => <th key={x}>{x}</th>)}</thead>
+      <tbody>
+        {data.rows.map((row, index) => (
+          <Row row={row} key={index} headers={data.headers} />
+        ))}
+      </tbody>
+    </table>
+  );
+};
 
 export default Table;
