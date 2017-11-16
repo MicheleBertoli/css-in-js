@@ -1,132 +1,142 @@
-import React, { Component } from 'react';
-import { Provider, Header, Body } from 'reactabular-table';
-import { default as data } from './../data';
+import React, { Component } from "react";
+import { Provider, Header, Body } from "reactabular-table";
+import { default as data } from "./../data";
 
 const rows = Object.keys(data).map(key => {
   let x = data[key];
   x.id = key;
   return x;
-})
+});
 
 const boolFormatter = x => {
   if (x === undefined) {
-    return '?'
+    return "?";
   } else {
-    return x ? '+' : ''
+    return x ? "✔️" : "";
   }
-}
+};
 
 const boolCellFormatter = {
   cell: {
-    formatters: [
-      boolFormatter
-    ]
+    formatters: [boolFormatter]
   }
-}
+};
 
 const columns = [
   {
-    property: 'id',
+    property: "id",
     header: {
-      label: 'Package',
+      label: "Package"
+    },
+    cell: {
+      formatters: [
+        (name, extraParameters) => (
+          <a
+            href={extraParameters.rowData.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {name}
+          </a>
+        )
+      ]
     }
   },
   {
-    property: 'version',
+    property: "version",
     header: {
-      label: 'Version',
+      label: "Version"
     }
   },
   {
-    property: 'vendorPrefixing',
+    property: "vendorPrefixing",
     header: {
-      label: 'Automatic Vendor Prefixing',
+      label: "Automatic Vendor Prefixing"
     },
     ...boolCellFormatter
   },
   {
-    property: 'pseudoClasses',
+    property: "pseudoClasses",
     header: {
-      label: 'Pseudo Classes',
+      label: "Pseudo Classes"
     },
     ...boolCellFormatter
   },
   {
-    property: 'mediaQueries',
+    property: "mediaQueries",
     header: {
-      label: 'Media Queries',
-    },
-    ...boolCellFormatter
-
-  },
-  {
-    property: 'objectLiterals',
-    header: {
-      label: 'Styles As Object Literals',
+      label: "Media Queries"
     },
     ...boolCellFormatter
   },
   {
-    property: 'extractCSS',
+    property: "objectLiterals",
     header: {
-      label: 'Extract CSS File',
+      label: "Styles As Object Literals"
     },
     ...boolCellFormatter
   },
   {
-    property: 'keyframes',
+    property: "extractCSS",
     header: {
-      label: 'keyframes',
+      label: "Extract CSS File"
     },
     ...boolCellFormatter
   },
   {
-    property: 'fontFaces',
+    property: "keyframes",
     header: {
-      label: 'Font-faces',
+      label: "keyframes"
     },
     ...boolCellFormatter
   },
   {
-    property: 'plugins',
+    property: "fontFaces",
     header: {
-      label: 'Plugins',
+      label: "Font-faces"
     },
     ...boolCellFormatter
   },
   {
-    property: 'fallback',
+    property: "plugins",
     header: {
-      label: 'Fallback',
+      label: "Plugins"
     },
     ...boolCellFormatter
   },
   {
-    property: 'serverRendering',
+    property: "fallback",
     header: {
-      label: 'Server rendering',
+      label: "Fallback"
     },
     ...boolCellFormatter
   },
   {
-    property: 'frameworkAgnostic',
+    property: "serverRendering",
     header: {
-      label: 'Framework agnostic',
+      label: "Server rendering"
     },
     ...boolCellFormatter
   },
   {
-    property: 'nativeSupport',
+    property: "frameworkAgnostic",
     header: {
-      label: 'Native support',
+      label: "Framework agnostic"
+    },
+    ...boolCellFormatter
+  },
+  {
+    property: "nativeSupport",
+    header: {
+      label: "Native support"
     },
     ...boolCellFormatter
   },
   {
     header: {
-      label: 'Mechanism',
+      label: "Mechanism"
     },
-    property: 'mechanism'
+    property: "mechanism"
   }
 ];
 
@@ -135,8 +145,8 @@ const columns = [
 class Table extends Component {
   render() {
     return (
-      <Provider className="table is-narrow" columns={columns} cellSpacing="0">
-        <Header/>
+      <Provider className="table table-responsive" columns={columns}>
+        <Header />
         <Body rows={rows} rowKey="id" />
       </Provider>
     );
