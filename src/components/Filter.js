@@ -1,9 +1,9 @@
 import React from "react";
 
-const Filter = options => {
+const Filter = props => {
   return (
     <div className="form-row align-items-center" style={{ padding: "12px" }}>
-      {options.filters.map((x, index) => {
+      {props.filters.map((x, index) => {
         return (
           <div className="form-check form-check-inline" key={x.name}>
             <label className="form-check-label">
@@ -11,7 +11,7 @@ const Filter = options => {
                 className="form-check-input"
                 type="checkbox"
                 checked={x.checked}
-                onChange={options.onChange.bind(null, index)}
+                onChange={props.onChange.bind(null, index)}
               />
               {` ${x.name}`}
             </label>
