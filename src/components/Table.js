@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cell = options => {
+const CellTd = options => {
   const { header, value } = options;
   if (header === "Package") {
     return <td dangerouslySetInnerHTML={{ __html: value }} />;
@@ -9,10 +9,23 @@ const Cell = options => {
   }
 };
 
+const CellTh = options => {
+  const { header } = options;
+  let additionalOptions;
+  if (header === "Package") {
+    additionalOptions = { width: 180 };
+  } else if (header === "Version") {
+    additionalOptions = { width: 90 };
+  } else {
+    additionalOptions = {};
+  }
+  return <th {...additionalOptions}>{header}</th>;
+};
+
 const Row = options => {
   const { row, headers } = options;
   return (
-    <tr>{headers.map(x => <Cell key={x} header={x} value={row[x]} />)}</tr>
+    <tr>{headers.map(x => <CellTd key={x} header={x} value={row[x]} />)}</tr>
   );
 };
 
@@ -27,7 +40,7 @@ const Table = options => {
   return (
     <table className="table table-responsive">
       <thead>
-        <tr>{headers.map(x => <th key={x}>{x}</th>)}</tr>
+        <tr>{headers.map(x => <CellTh key={x} header={x} />)}</tr>
       </thead>
       <tbody>
         {filteredRows.map((row, index) => (
