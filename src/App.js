@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Table from "./components/Table";
 import Filter from "./components/Filter";
+import Seo from "./components/Seo";
 import { default as data } from "./data.json";
 
 class App extends Component {
@@ -34,6 +35,12 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Seo
+          title="CSS-in-JS"
+          description="Comparison of CSS-in-JS solutions"
+          path="/"
+          twitter="@michelebertoli"
+        />
         <Navbar />
         <div className="container">
           <div className="row">
