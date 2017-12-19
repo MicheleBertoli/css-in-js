@@ -68,6 +68,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [smart-css](https://github.com/hackhat/smart-css) | 1.1.1 | | ✓ | ✓ | ✓ | |
 | [stile](https://github.com/bloodyowl/stile) + [react-media-queries](https://github.com/bloodyowl/react-media-queries) | 2.0.0 | ✓ | | ✓ | ✓ | | |
 | [stilr](https://github.com/kodyl/stilr) | 1.1.0 | | ✓ | ✓ | ✓ | ✓ |
+| [styable](https://github.com/wix/stylable) | 5.0.1 | | ✓ | ✓ | N/A (CSS syntax) | N/A (transpiles to flat CSS) |
 | [style-it](https://github.com/buildbreakdo/style-it) | 1.2.9 | | ✓ | ✓ | | |
 | [styled-components](https://github.com/styled-components/styled-components) | 1.0.3 | ✓ | ✓ | ✓ | | |
 | [styled-jsx](https://github.com/zeit/styled-jsx) | 0.0.7 | ✓ | ✓ | ✓ | | ✓ |
