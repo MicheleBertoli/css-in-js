@@ -1,0 +1,27 @@
+.button1977411557💠root .button1977411557💠container {
+  text-align: center;
+}
+
+.button1977411557💠root .button1977411557💠button {
+  background-color: #ff0000;
+  width: 320px;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.button1977411557💠root .button1977411557💠button:hover {
+  color: #fff;
+}
+
+.button1977411557💠root .button1977411557💠button:active {
+  position: relative;
+  top: 2px;
+}
+
+@media (max-width: 480px) {
+  .button1977411557💠root .button1977411557💠button {
+    width: 160px
+  }
+}
