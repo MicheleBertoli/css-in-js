@@ -499,6 +499,15 @@
       "Extract CSS File": "✓"
     },
     {
+      "Package": "<a href=\"https://github.com/wix/stylable\">stylable</a>",
+      "Version": "5.0.2",
+      "Automatic Vendor Prefixing": "",
+      "Pseudo Classes": "✓",
+      "Media Queries": "✓",
+      "Styles As Object Literals": "",
+      "Extract CSS File": "✓"
+    },
+    {
       "Package":
         "<a href=\"https://github.com/buildbreakdo/style-it\">style-it</a>",
       "Version": "1.2.9",
