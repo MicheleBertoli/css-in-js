@@ -1,10 +1,6 @@
 {
   "presets": [
     "env",
-    "react",
-    ["linaria/babel", {
-      "single": true,
-      "filename": "styles.css",
-    }]
+    "react"
   ]
 }
