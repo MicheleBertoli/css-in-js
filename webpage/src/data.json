@@ -10,7 +10,12 @@
   ],
   "rows": [
     {
-      "Package": "<a href=\"https://github.com/Khan/aphrodite\">aphrodite</a>",
+      "Package": [
+        {
+          "text": "aphrodite",
+          "href": "https://github.com/Khan/aphrodite"
+        }
+      ],
       "Version": "1.2.3",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -19,7 +24,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/martinandert/babel-plugin-css-in-js\">babel-plugin-css-in-js</a>",
+      "Package": [
+        {
+          "text": "babel-plugin-css-in-js",
+          "href": "https://github.com/martinandert/babel-plugin-css-in-js"
+        }
+      ],
       "Version": "1.2.2",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -28,7 +38,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/soluml/babel-plugin-pre-style\">babel-plugin-pre-style</a>",
+      "Package": [
+        {
+          "text": "babel-plugin-pre-style",
+          "href": "https://github.com/soluml/babel-plugin-pre-style"
+        }
+      ],
       "Version": "1.0.9-alpha",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -37,7 +52,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/bloodyowl/react-styled\">bloody-react-styled</a>",
+      "Package": [
+        {
+          "text": "bloody-react-styled",
+          "href": "https://github.com/bloodyowl/react-styled"
+        }
+      ],
       "Version": "3.0.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -46,7 +66,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/inturn/classy\">classy</a>",
+      "Package": [
+        {
+          "text": "classy",
+          "href": "https://github.com/inturn/classy"
+        }
+      ],
       "Version": "0.3.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -55,7 +80,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/rtsao/csjs\">csjs</a>",
+      "Package": [
+        {
+          "text": "csjs",
+          "href": "https://github.com/rtsao/csjs"
+        }
+      ],
       "Version": "1.0.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -64,7 +94,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/siddharthkp/css-constructor\">css-constructor</a>",
+      "Package": [
+        {
+          "text": "css-constructor",
+          "href": "https://github.com/siddharthkp/css-constructor"
+        }
+      ],
       "Version": "0.1.1",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -73,7 +108,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/streamich/css-light\">css-light</a>",
+      "Package": [
+        {
+          "text": "css-light",
+          "href": "https://github.com/streamich/css-light"
+        }
+      ],
       "Version": "1.1.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -82,7 +122,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/webpack/css-loader\">css-loader</a>",
+      "Package": [
+        {
+          "text": "css-loader",
+          "href": "https://github.com/webpack/css-loader"
+        }
+      ],
       "Version": "0.15.6",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -91,7 +136,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/jareware/css-ns\">css-ns</a>",
+      "Package": [
+        {
+          "text": "css-ns",
+          "href": "https://github.com/jareware/css-ns"
+        }
+      ],
       "Version": "1.0.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -100,7 +150,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/cssobj/cssobj\">cssobj</a>",
+      "Package": [
+        {
+          "text": "cssobj",
+          "href": "https://github.com/cssobj/cssobj"
+        }
+      ],
       "Version": "0.2.21",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -109,7 +164,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/krasimir/cssx\">cssx-loader</a>",
+      "Package": [
+        {
+          "text": "cssx-loader",
+          "href": "https://github.com/krasimir/cssx"
+        }
+      ],
       "Version": "3.8.0",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -118,7 +178,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/tkh44/emotion\">emotion</a>",
+      "Package": [
+        {
+          "text": "emotion",
+          "href": "https://github.com/tkh44/emotion"
+        }
+      ],
       "Version": "6.0.3",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -127,7 +192,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/jacobp100/es-css-modules\">es-css-modules</a>",
+      "Package": [
+        {
+          "text": "es-css-modules",
+          "href": "https://github.com/jacobp100/es-css-modules"
+        }
+      ],
       "Version": "1.2.3",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -136,7 +206,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/streamich/freestyler\">freestyler</a>",
+      "Package": [
+        {
+          "text": "freestyler",
+          "href": "https://github.com/streamich/freestyler"
+        }
+      ],
       "Version": "1.0.2",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -145,7 +220,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/threepointone/glamor\">glamor</a>",
+      "Package": [
+        {
+          "text": "glamor",
+          "href": "https://github.com/threepointone/glamor"
+        }
+      ],
       "Version": "2.1.0",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -154,7 +234,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/paypal/glamorous\">glamorous</a>",
+      "Package": [
+        {
+          "text": "glamorous",
+          "href": "https://github.com/paypal/glamorous"
+        }
+      ],
       "Version": "1.0.1",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -163,7 +248,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/colingourlay/hyperstyles\">hyperstyles</a>",
+      "Package": [
+        {
+          "text": "hyperstyles",
+          "href": "https://github.com/colingourlay/hyperstyles"
+        }
+      ],
       "Version": "3.3.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -172,7 +262,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/irom-io/i-css\">i-css</a>",
+      "Package": [
+        {
+          "text": "i-css",
+          "href": "https://github.com/irom-io/i-css"
+        }
+      ],
       "Version": "1.0.4",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -181,7 +276,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/j2css/j2c\">j2c</a>",
+      "Package": [
+        {
+          "text": "j2c",
+          "href": "https://github.com/j2css/j2c"
+        }
+      ],
       "Version": "0.10.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -190,7 +290,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/petehunt/jsxstyle\">jsxstyle</a>",
+      "Package": [
+        {
+          "text": "jsxstyle",
+          "href": "https://github.com/petehunt/jsxstyle"
+        }
+      ],
       "Version": "0.0.14",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "",
@@ -199,7 +304,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/callstack-io/linaria\">linaria</a>",
+      "Package": [
+        {
+          "text": "linaria",
+          "href": "https://github.com/callstack-io/linaria"
+        }
+      ],
       "Version": "0.5.0",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -208,7 +318,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/soluml/pre-style\">pre-style</a>",
+      "Package": [
+        {
+          "text": "pre-style",
+          "href": "https://github.com/soluml/pre-style"
+        }
+      ],
       "Version": "1.0.9-alpha",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -217,7 +332,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/FormidableLabs/radium\">radium</a>",
+      "Package": [
+        {
+          "text": "radium",
+          "href": "https://github.com/FormidableLabs/radium"
+        }
+      ],
       "Version": "0.13.5",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -226,7 +346,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/jhudson8/react-css-builder\">react-css-builder</a>",
+      "Package": [
+        {
+          "text": "react-css-builder",
+          "href": "https://github.com/jhudson8/react-css-builder"
+        }
+      ],
       "Version": "0.2.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "",
@@ -235,7 +360,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/andreypopp/react-css-components\">react-css-components</a>",
+      "Package": [
+        {
+          "text": "react-css-components",
+          "href": "https://github.com/andreypopp/react-css-components"
+        }
+      ],
       "Version": "0.6.9",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -244,7 +374,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/gajus/react-css-modules\">react-css-modules</a>",
+      "Package": [
+        {
+          "text": "react-css-modules",
+          "href": "https://github.com/gajus/react-css-modules"
+        }
+      ],
       "Version": "3.0.2",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -253,7 +388,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/mbasso/react-cssom\">react-cssom</a>",
+      "Package": [
+        {
+          "text": "react-cssom",
+          "href": "https://github.com/mbasso/react-cssom"
+        }
+      ],
       "Version": "1.0.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -262,7 +402,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/jxnblk/react-cxs\">react-cxs</a>",
+      "Package": [
+        {
+          "text": "react-cxs",
+          "href": "https://github.com/jxnblk/react-cxs"
+        }
+      ],
       "Version": "1.0.0-beta.4",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -271,7 +416,13 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/rofrischmann/fela/tree/master/packages/react-fela\">react-fela</a>",
+      "Package": [
+        {
+          "text": "react-fela",
+          "href":
+            "https://github.com/rofrischmann/fela/tree/master/packages/react-fela"
+        }
+      ],
       "Version": "2.1.0",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -280,7 +431,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/blakeembrey/react-free-style\">react-free-style</a>",
+      "Package": [
+        {
+          "text": "react-free-style",
+          "href": "https://github.com/blakeembrey/react-free-style"
+        }
+      ],
       "Version": "0.6.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -289,7 +445,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/RickWong/react-inline-css\">react-inline-css</a>",
+      "Package": [
+        {
+          "text": "react-inline-css",
+          "href": "https://github.com/RickWong/react-inline-css"
+        }
+      ],
       "Version": "1.2.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -298,7 +459,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/dowjones/react-inline-style\">react-inline-style</a>",
+      "Package": [
+        {
+          "text": "react-inline-style",
+          "href": "https://github.com/dowjones/react-inline-style"
+        }
+      ],
       "Version": "0.1.0",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -307,7 +473,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/martinandert/react-inline\">react-inline</a>",
+      "Package": [
+        {
+          "text": "react-inline",
+          "href": "https://github.com/martinandert/react-inline"
+        }
+      ],
       "Version": "0.6.3",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -316,7 +487,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/jsstyles/react-jss\">react-jss</a>",
+      "Package": [
+        {
+          "text": "react-jss",
+          "href": "https://github.com/jsstyles/react-jss"
+        }
+      ],
       "Version": "2.0.5",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -325,7 +501,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/rofrischmann/react-look\">react-look</a>",
+      "Package": [
+        {
+          "text": "react-look",
+          "href": "https://github.com/rofrischmann/react-look"
+        }
+      ],
       "Version": "0.6.1",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -334,7 +515,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/necolas/react-native-web\">react-native-web</a>",
+      "Package": [
+        {
+          "text": "react-native-web",
+          "href": "https://github.com/necolas/react-native-web"
+        }
+      ],
       "Version": "0.0.11",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "",
@@ -343,7 +529,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/elierotenberg/react-statics-styles\">react-statics-styles</a>",
+      "Package": [
+        {
+          "text": "react-statics-styles",
+          "href": "https://github.com/elierotenberg/react-statics-styles"
+        }
+      ],
       "Version": "3.0.2",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -352,7 +543,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/nick/react-styl\">react-styl</a>",
+      "Package": [
+        {
+          "text": "react-styl",
+          "href": "https://github.com/nick/react-styl"
+        }
+      ],
       "Version": "0.0.1",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -361,7 +557,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/js-next/react-style\">react-style</a>",
+      "Package": [
+        {
+          "text": "react-style",
+          "href": "https://github.com/js-next/react-style"
+        }
+      ],
       "Version": "0.5.5",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "",
@@ -370,7 +571,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/pluralsight/react-styleable\">react-styleable</a>",
+      "Package": [
+        {
+          "text": "react-styleable",
+          "href": "https://github.com/pluralsight/react-styleable"
+        }
+      ],
       "Version": "1.4.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -379,7 +585,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/rtsao/react-stylematic\">react-stylematic</a>",
+      "Package": [
+        {
+          "text": "react-stylematic",
+          "href": "https://github.com/rtsao/react-stylematic"
+        }
+      ],
       "Version": "1.0.1",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -388,7 +599,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/azazdeaz/react-theme\">react-theme</a>",
+      "Package": [
+        {
+          "text": "react-theme",
+          "href": "https://github.com/azazdeaz/react-theme"
+        }
+      ],
       "Version": "0.1.4",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "",
@@ -397,7 +613,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/fdecampredon/react-vstyle\">react-vstyle</a>",
+      "Package": [
+        {
+          "text": "react-vstyle",
+          "href": "https://github.com/fdecampredon/react-vstyle"
+        }
+      ],
       "Version": "0.1.0",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -406,7 +627,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/casesandberg/reactcss\">reactcss</a>",
+      "Package": [
+        {
+          "text": "reactcss",
+          "href": "https://github.com/casesandberg/reactcss"
+        }
+      ],
       "Version": "0.3.2",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "",
@@ -415,7 +641,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/tkh44/restyles\">restyles</a>",
+      "Package": [
+        {
+          "text": "restyles",
+          "href": "https://github.com/tkh44/restyles"
+        }
+      ],
       "Version": "2.0.1",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -424,7 +655,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/rtsao/scope-styles\">scope-styles</a>",
+      "Package": [
+        {
+          "text": "scope-styles",
+          "href": "https://github.com/rtsao/scope-styles"
+        }
+      ],
       "Version": "0.6.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -433,7 +669,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/hackhat/smart-css\">smart-css</a>",
+      "Package": [
+        {
+          "text": "smart-css",
+          "href": "https://github.com/hackhat/smart-css"
+        }
+      ],
       "Version": "1.1.1",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -442,7 +683,16 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/bloodyowl/stile\">stile</a> + <a href=\"https://github.com/bloodyowl/react-media-queries\">react-media-queries</a>",
+      "Package": [
+        {
+          "text": "stile",
+          "href": "https://github.com/bloodyowl/stile"
+        },
+        {
+          "text": "react-media-queries",
+          "href": "https://github.com/bloodyowl/react-media-queries"
+        }
+      ],
       "Version": "2.0.0",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "",
@@ -451,7 +701,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/kodyl/stilr\">stilr</a>",
+      "Package": [
+        {
+          "text": "stilr",
+          "href": "https://github.com/kodyl/stilr"
+        }
+      ],
       "Version": "1.1.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -460,7 +715,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/wix/stylable\">stylable</a>",
+      "Package": [
+        {
+          "text": "stylable",
+          "href": "https://github.com/wix/stylable"
+        }
+      ],
       "Version": "5.0.2",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -469,7 +729,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/buildbreakdo/style-it\">style-it</a>",
+      "Package": [
+        {
+          "text": "style-it",
+          "href": "https://github.com/buildbreakdo/style-it"
+        }
+      ],
       "Version": "1.2.9",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -478,7 +743,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/styled-components/styled-components\">styled-components</a>",
+      "Package": [
+        {
+          "text": "styled-components",
+          "href": "https://github.com/styled-components/styled-components"
+        }
+      ],
       "Version": "1.0.3",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -487,7 +757,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/zeit/styled-jsx\">styled-jsx</a>",
+      "Package": [
+        {
+          "text": "styled-jsx",
+          "href": "https://github.com/zeit/styled-jsx"
+        }
+      ],
       "Version": "0.0.7",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -496,7 +771,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/rtsao/styletron\">styletron-react</a>",
+      "Package": [
+        {
+          "text": "styletron-react",
+          "href": "https://github.com/rtsao/styletron"
+        }
+      ],
       "Version": "2.1.2",
       "Automatic Vendor Prefixing": "✓",
       "Pseudo Classes": "✓",
@@ -505,7 +785,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/andreypopp/styling\">styling</a>",
+      "Package": [
+        {
+          "text": "styling",
+          "href": "https://github.com/andreypopp/styling"
+        }
+      ],
       "Version": "0.2.0",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -514,7 +799,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/jxnblk/superstyle\">superstyle</a>",
+      "Package": [
+        {
+          "text": "superstyle",
+          "href": "https://github.com/jxnblk/superstyle"
+        }
+      ],
       "Version": "1.0.0-1",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "",
@@ -523,7 +813,12 @@
       "Extract CSS File": ""
     },
     {
-      "Package": "<a href=\"https://github.com/typestyle/typestyle\">typestyle</a>",
+      "Package": [
+        {
+          "text": "typestyle",
+          "href": "https://github.com/typestyle/typestyle"
+        }
+      ],
       "Version": "0.22.3",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "✓",
@@ -532,7 +827,12 @@
       "Extract CSS File": "✓"
     },
     {
-      "Package": "<a href=\"https://github.com/tuckerconnelly/uranium\">uranium</a>",
+      "Package": [
+        {
+          "text": "uranium",
+          "href": "https://github.com/tuckerconnelly/uranium"
+        }
+      ],
       "Version": "0.1.2",
       "Automatic Vendor Prefixing": "",
       "Pseudo Classes": "",

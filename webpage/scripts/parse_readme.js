@@ -12,6 +12,19 @@ const tokens = marked.lexer(text, {
 const table = tokens.filter(x => x.type == "table")[0];
 const { header, cells } = table;
 
+const linkPattern = /\s?\[([^\]]+)\]\(([^\)]+)\)\s?/gi;
+const parseLinks = linkText => {
+  let result = [],
+    match;
+  do {
+    match = linkPattern.exec(linkText);
+    if (match) {
+      result.push({ text: match[1], href: match[2] });
+    }
+  } while (match);
+  return result;
+};
+
 const rows = cells
   .map(x => {
     const result = {};
@@ -19,7 +32,7 @@ const rows = cells
     return result;
   })
   .map(x => {
-    x.Package = marked.inlineLexer(x.Package, []);
+    x.Package = parseLinks(x.Package);
     return x;
   });
 

@@ -1,9 +1,23 @@
 import React from "react";
 
+const join = (array, separator) =>
+  array.reduce((result, child, index) => {
+    if (index < array.length - 1) {
+      return result.concat(child, separator);
+    } else {
+      return result.concat(child);
+    }
+  }, []);
+
 const CellTd = options => {
   const { header, value } = options;
   if (header === "Package") {
-    return <td dangerouslySetInnerHTML={{ __html: value }} />;
+    const links = value.map(link => (
+      <a href={link.href} key={link.text}>
+        {link.text}
+      </a>
+    ));
+    return <td>{join(links, " + ")}</td>;
   } else {
     return <td>{value}</td>;
   }
