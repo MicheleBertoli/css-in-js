@@ -25,16 +25,18 @@ const parseLinks = linkText => {
   return result;
 };
 
-const rows = cells
-  .map(x => {
-    const result = {};
-    header.forEach((key, i) => (result[key] = x[i]));
+const rows = cells.map(x => {
+  return header.reduce((result, key, i) => {
+    if (key === "Package") {
+      result[key] = parseLinks(x[i]);
+    } else if (key === "Version") {
+      result[key] = x[i];
+    } else {
+      result[key] = x[i] === "✓";
+    }
     return result;
-  })
-  .map(x => {
-    x.Package = parseLinks(x.Package);
-    return x;
-  });
+  }, {});
+});
 
 const json = {
   headers: header,

@@ -9,6 +9,16 @@ const join = (array, separator) =>
     }
   }, []);
 
+const symbol = value => {
+  if (value === true) {
+    return '✓';
+  } else if (value === false) {
+    return '';
+  } else {
+    return '?';
+  }
+};
+
 const CellTd = options => {
   const { header, value } = options;
   if (header === "Package") {
@@ -18,8 +28,10 @@ const CellTd = options => {
       </a>
     ));
     return <td>{join(links, " + ")}</td>;
-  } else {
+  } else if (header === "Version") {
     return <td>{value}</td>;
+  } else {
+    return <td>{symbol(value)}</td>;
   }
 };
 

@@ -17,11 +17,11 @@
         }
       ],
       "Version": "1.2.3",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -31,11 +31,11 @@
         }
       ],
       "Version": "1.2.2",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -45,11 +45,11 @@
         }
       ],
       "Version": "1.0.9-alpha",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -59,11 +59,11 @@
         }
       ],
       "Version": "3.0.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -73,11 +73,11 @@
         }
       ],
       "Version": "0.3.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -87,11 +87,11 @@
         }
       ],
       "Version": "1.0.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -101,11 +101,11 @@
         }
       ],
       "Version": "0.1.1",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -115,11 +115,11 @@
         }
       ],
       "Version": "1.1.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -129,11 +129,11 @@
         }
       ],
       "Version": "0.15.6",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -143,11 +143,11 @@
         }
       ],
       "Version": "1.0.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -157,11 +157,11 @@
         }
       ],
       "Version": "0.2.21",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -171,11 +171,11 @@
         }
       ],
       "Version": "3.8.0",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -185,11 +185,11 @@
         }
       ],
       "Version": "6.0.3",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -199,11 +199,11 @@
         }
       ],
       "Version": "1.2.3",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -213,11 +213,11 @@
         }
       ],
       "Version": "1.0.2",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -227,11 +227,11 @@
         }
       ],
       "Version": "2.1.0",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -241,11 +241,11 @@
         }
       ],
       "Version": "1.0.1",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -255,11 +255,11 @@
         }
       ],
       "Version": "3.3.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -269,11 +269,11 @@
         }
       ],
       "Version": "1.0.4",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -283,11 +283,11 @@
         }
       ],
       "Version": "0.10.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -297,11 +297,11 @@
         }
       ],
       "Version": "0.0.14",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": false,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -311,11 +311,11 @@
         }
       ],
       "Version": "0.5.0",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -325,11 +325,11 @@
         }
       ],
       "Version": "1.0.9-alpha",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -339,11 +339,11 @@
         }
       ],
       "Version": "0.13.5",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -353,11 +353,11 @@
         }
       ],
       "Version": "0.2.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": false,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -367,11 +367,11 @@
         }
       ],
       "Version": "0.6.9",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -381,11 +381,11 @@
         }
       ],
       "Version": "3.0.2",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -395,11 +395,11 @@
         }
       ],
       "Version": "1.0.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -409,26 +409,25 @@
         }
       ],
       "Version": "1.0.0-beta.4",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
         {
           "text": "react-fela",
-          "href":
-            "https://github.com/rofrischmann/fela/tree/master/packages/react-fela"
+          "href": "https://github.com/rofrischmann/fela/tree/master/packages/react-fela"
         }
       ],
       "Version": "2.1.0",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -438,11 +437,11 @@
         }
       ],
       "Version": "0.6.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -452,11 +451,11 @@
         }
       ],
       "Version": "1.2.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -466,11 +465,11 @@
         }
       ],
       "Version": "0.1.0",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -480,11 +479,11 @@
         }
       ],
       "Version": "0.6.3",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -494,11 +493,11 @@
         }
       ],
       "Version": "2.0.5",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -508,11 +507,11 @@
         }
       ],
       "Version": "0.6.1",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -522,11 +521,11 @@
         }
       ],
       "Version": "0.0.11",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": false,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -536,11 +535,11 @@
         }
       ],
       "Version": "3.0.2",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -550,11 +549,11 @@
         }
       ],
       "Version": "0.0.1",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -564,11 +563,11 @@
         }
       ],
       "Version": "0.5.5",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": false,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -578,11 +577,11 @@
         }
       ],
       "Version": "1.4.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -592,11 +591,11 @@
         }
       ],
       "Version": "1.0.1",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -606,11 +605,11 @@
         }
       ],
       "Version": "0.1.4",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": false,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -620,11 +619,11 @@
         }
       ],
       "Version": "0.1.0",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -634,11 +633,11 @@
         }
       ],
       "Version": "0.3.2",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": false,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -648,11 +647,11 @@
         }
       ],
       "Version": "2.0.1",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -662,11 +661,11 @@
         }
       ],
       "Version": "0.6.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -676,11 +675,11 @@
         }
       ],
       "Version": "1.1.1",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -694,11 +693,11 @@
         }
       ],
       "Version": "2.0.0",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": false,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -708,11 +707,11 @@
         }
       ],
       "Version": "1.1.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -722,11 +721,11 @@
         }
       ],
       "Version": "5.0.2",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -736,11 +735,11 @@
         }
       ],
       "Version": "1.2.9",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -750,11 +749,11 @@
         }
       ],
       "Version": "1.0.3",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -764,11 +763,11 @@
         }
       ],
       "Version": "0.0.7",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": false,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -778,11 +777,11 @@
         }
       ],
       "Version": "2.1.2",
-      "Automatic Vendor Prefixing": "✓",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -792,11 +791,11 @@
         }
       ],
       "Version": "0.2.0",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -806,11 +805,11 @@
         }
       ],
       "Version": "1.0.0-1",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "",
-      "Media Queries": "",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": ""
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": false,
+      "Media Queries": false,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     },
     {
       "Package": [
@@ -820,11 +819,11 @@
         }
       ],
       "Version": "0.22.3",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "✓",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓",
-      "Extract CSS File": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
     },
     {
       "Package": [
@@ -834,10 +833,11 @@
         }
       ],
       "Version": "0.1.2",
-      "Automatic Vendor Prefixing": "",
-      "Pseudo Classes": "",
-      "Media Queries": "✓",
-      "Styles As Object Literals": "✓"
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": false,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
     }
   ]
 }
