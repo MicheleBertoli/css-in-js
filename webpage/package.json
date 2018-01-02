@@ -6,6 +6,7 @@
   "license": "MIT",
   "homepage": "https://michelebertoli.github.io/css-in-js/",
   "dependencies": {
+    "markdown-table": "^1.1.1",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-helmet": "^5.2.0"
