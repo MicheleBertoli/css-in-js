@@ -11,11 +11,11 @@ const join = (array, separator) =>
 
 const symbol = value => {
   if (value === true) {
-    return '✓';
+    return "✓";
   } else if (value === false) {
-    return '';
+    return "";
   } else {
-    return '?';
+    return "?";
   }
 };
 
