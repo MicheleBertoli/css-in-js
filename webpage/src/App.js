@@ -42,7 +42,7 @@ class App extends Component {
           twitter="@michelebertoli"
         />
         <Navbar />
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <Filter
               filters={this.state.filters}

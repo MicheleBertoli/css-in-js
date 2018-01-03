@@ -6,7 +6,8 @@
     "Pseudo Classes",
     "Media Queries",
     "Styles As Object Literals",
-    "Extract CSS File"
+    "Extract CSS File",
+    "Styles As Template Literals"
   ],
   "rows": [
     {
@@ -754,7 +755,8 @@
       "Pseudo Classes": true,
       "Media Queries": true,
       "Styles As Object Literals": false,
-      "Extract CSS File": false
+      "Extract CSS File": false,
+      "Styles As Template Literals": true
     },
     {
       "Package": [
