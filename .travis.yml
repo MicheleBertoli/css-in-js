@@ -6,7 +6,6 @@ install:
   - cd webpage
   - yarn install
 script:
-  - yarn build-data
   - yarn build
 deploy:
   provider: pages
