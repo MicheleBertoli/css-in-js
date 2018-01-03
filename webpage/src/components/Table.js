@@ -1,4 +1,5 @@
 import React from "react";
+import "./Table.css";
 
 const join = (array, separator) =>
   array.reduce((result, child, index) => {
@@ -11,11 +12,11 @@ const join = (array, separator) =>
 
 const symbol = value => {
   if (value === true) {
-    return "✓";
+    return <span className="green symbol">✓</span>;
   } else if (value === false) {
-    return "";
+    return <span className="red symbol">✕</span>;
   } else {
-    return "?";
+    return <span className="gray symbol">?</span>;
   }
 };
 

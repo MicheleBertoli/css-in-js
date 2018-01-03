@@ -1,0 +1,23 @@
+.symbol {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.red {
+  background: #da3849;
+}
+
+.green {
+  background: #30a64a;
+}
+
+.gray {
+  background: #868e95;
+}
