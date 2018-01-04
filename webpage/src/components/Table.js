@@ -9,42 +9,49 @@ const join = (array, separator) =>
     }
   }, []);
 
+const links = value => {
+  const linkTags = value.map(link => (
+    <a href={link.href} key={link.text}>
+      {link.text}
+    </a>
+  ));
+  return join(linkTags, " + ");
+};
+
 const symbol = value => {
   if (value === true) {
-    return '✓';
+    return "✓";
   } else if (value === false) {
-    return '';
+    return "";
   } else {
-    return '?';
+    return "?";
   }
+};
+
+const defaultFallback = (options, field) =>
+  options[field] || options["default"];
+
+const tdValue = {
+  Package: links,
+  Version: value => value,
+  default: symbol
+};
+
+const thStyles = {
+  Package: { width: 180 },
+  Version: { width: 90 },
+  default: {}
 };
 
 const CellTd = options => {
   const { header, value } = options;
-  if (header === "Package") {
-    const links = value.map(link => (
-      <a href={link.href} key={link.text}>
-        {link.text}
-      </a>
-    ));
-    return <td>{join(links, " + ")}</td>;
-  } else if (header === "Version") {
-    return <td>{value}</td>;
-  } else {
-    return <td>{symbol(value)}</td>;
-  }
+  const cellFormatter = defaultFallback(tdValue, header);
+  return <td>{cellFormatter(value)}</td>;
 };
 
 const CellTh = options => {
   const { header } = options;
-  let additionalOptions;
-  if (header === "Package") {
-    additionalOptions = { width: 180 };
-  } else if (header === "Version") {
-    additionalOptions = { width: 90 };
-  } else {
-    additionalOptions = {};
-  }
+  const additionalOptions = defaultFallback(thStyles, header);
   return <th {...additionalOptions}>{header}</th>;
 };
 
