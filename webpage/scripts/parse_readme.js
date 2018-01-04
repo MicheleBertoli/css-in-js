@@ -25,15 +25,20 @@ const parseLinks = linkText => {
   return result;
 };
 
+const parseSymbol = value => value === "✓";
+
+const defaultFallback = (options, field) => options[field] || options.default;
+
+const tdParser = {
+  Package: parseLinks,
+  Version: value => value,
+  default: parseSymbol
+};
+
 const rows = cells.map(x => {
   return header.reduce((result, key, i) => {
-    if (key === "Package") {
-      result[key] = parseLinks(x[i]);
-    } else if (key === "Version") {
-      result[key] = x[i];
-    } else {
-      result[key] = x[i] === "✓";
-    }
+    const parser = defaultFallback(tdParser, key);
+    result[key] = parser(x[i]);
     return result;
   }, {});
 });

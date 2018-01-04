@@ -28,8 +28,7 @@ const symbol = value => {
   }
 };
 
-const defaultFallback = (options, field) =>
-  options[field] || options["default"];
+const defaultFallback = (options, field) => options[field] || options.default;
 
 const tdValue = {
   Package: links,
