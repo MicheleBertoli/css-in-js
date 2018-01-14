@@ -25,5 +25,8 @@
     "prettier": "prettier --write '{src/*,src/**/*,*,scripts/*}.{js,json,css}'",
     "predeploy": "npm run build-data && npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "reactSnap": {
+    "puppeteerArgs": ["--no-sandbox"]
   }
 }
