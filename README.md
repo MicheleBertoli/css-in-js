@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MicheleBertoli/css-in-js.svg?branch=master)](https://travis-ci.org/MicheleBertoli/css-in-js)
+
 # CSS in JS
 React: [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js) techniques comparison.
 
