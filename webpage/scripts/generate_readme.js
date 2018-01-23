@@ -19,16 +19,18 @@ const links = objs => objs.map(link).join(" + ");
 const version = obj => obj;
 const symbol = obj => (obj === true ? "✓" : "");
 
-const row = obj =>
-  headers.map(header => {
-    if (header === "Package") {
-      return links(obj[header]);
-    } else if (header === "Version") {
-      return version(obj[header]);
-    } else {
-      return symbol(obj[header]);
-    }
-  });
+const formatters = {
+  Package: links,
+  Version: version,
+  default: symbol
+};
+
+const defaultFallback = (options, field) => options[field] || options.default;
+
+const row = obj => headers.map(header => {
+  const formatter = defaultFallback(formatters, header)
+  return formatter(obj[header]);
+})
 
 const rows = data.rows.map(row);
 rows.unshift(headers);
