@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
-import {createFreestyler} from 'freestyler';
+import {css, styled} from 'freestyler';
 
-const css = createFreestyler(React);
-
-const Button = css.styled('button')({
+const Button = styled('button')({
   bg: 'red',
   w: '320px',
   pad: '20px',
@@ -25,10 +23,10 @@ const Button = css.styled('button')({
   },
 });
 
+@css({
+  ta: 'center',
+})
 class Container extends Component {
-  @css({
-    ta: 'center',
-  })
   render() {
     return (
       <div className="container">
