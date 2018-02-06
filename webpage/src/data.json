@@ -212,12 +212,12 @@
           "href": "https://github.com/streamich/freestyler"
         }
       ],
-      "Version": "1.0.2",
+      "Version": "1.5.0",
       "Automatic Vendor Prefixing": true,
       "Pseudo Classes": true,
       "Media Queries": true,
       "Styles As Object Literals": true,
-      "Extract CSS File": true
+      "Extract CSS File": false
     },
     {
       "Package": [
