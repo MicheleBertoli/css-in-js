@@ -6,15 +6,15 @@
   "license": "MIT",
   "homepage": "https://michelebertoli.github.io/css-in-js/",
   "dependencies": {
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^1.1.0",
     "markdown-table": "^1.1.1",
-    "react-scripts": "^1.0.17",
-    "react-snap": "^1.1.1"
+    "react-scripts": "^1.1.1",
+    "react-snap": "^1.11.4"
   },
   "scripts": {
     "start": "react-scripts start",

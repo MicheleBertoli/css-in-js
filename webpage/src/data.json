@@ -180,6 +180,20 @@
     {
       "Package": [
         {
+          "text": "cxs",
+          "href": "https://github.com/cxs-css/cxs"
+        }
+      ],
+      "Version": "6.2.0",
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
+    },
+    {
+      "Package": [
+        {
           "text": "emotion",
           "href": "https://github.com/tkh44/emotion"
         }
@@ -404,23 +418,8 @@
     {
       "Package": [
         {
-          "text": "react-cxs",
-          "href": "https://github.com/jxnblk/react-cxs"
-        }
-      ],
-      "Version": "1.0.0-beta.4",
-      "Automatic Vendor Prefixing": false,
-      "Pseudo Classes": true,
-      "Media Queries": true,
-      "Styles As Object Literals": true,
-      "Extract CSS File": true
-    },
-    {
-      "Package": [
-        {
           "text": "react-fela",
-          "href":
-            "https://github.com/rofrischmann/fela/tree/master/packages/react-fela"
+          "href": "https://github.com/rofrischmann/fela/tree/master/packages/react-fela"
         }
       ],
       "Version": "2.1.0",

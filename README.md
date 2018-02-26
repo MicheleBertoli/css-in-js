@@ -33,6 +33,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [css-ns](https://github.com/jareware/css-ns) | 1.0.0 |  | ✓ | ✓ |  | ✓ |
 | [cssobj](https://github.com/cssobj/cssobj) | 0.2.21 | ✓ | ✓ | ✓ | ✓ |  |
 | [cssx-loader](https://github.com/krasimir/cssx) | 3.8.0 | ✓ | ✓ | ✓ |  | ✓ |
+| [cxs](https://github.com/cxs-css/cxs) | 6.2.0 |  | ✓ | ✓ | ✓ | ✓ |
 | [emotion](https://github.com/tkh44/emotion) | 6.0.3 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [es-css-modules](https://github.com/jacobp100/es-css-modules) | 1.2.3 |  | ✓ | ✓ |  | ✓ |
 | [freestyler](https://github.com/streamich/freestyler) | 1.5.0 | ✓ | ✓ | ✓ | ✓ |  |
@@ -49,7 +50,6 @@ For example, if a package supports the css file extraction you can run the autop
 | [react-css-components](https://github.com/andreypopp/react-css-components) | 0.6.9 |  | ✓ | ✓ |  | ✓ |
 | [react-css-modules](https://github.com/gajus/react-css-modules) | 3.0.2 |  | ✓ | ✓ |  | ✓ |
 | [react-cssom](https://github.com/mbasso/react-cssom) | 1.0.0 |  | ✓ | ✓ |  | ✓ |
-| [react-cxs](https://github.com/jxnblk/react-cxs) | 1.0.0-beta.4 |  | ✓ | ✓ | ✓ | ✓ |
 | [react-fela](https://github.com/rofrischmann/fela/tree/master/packages/react-fela) | 2.1.0 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [react-free-style](https://github.com/blakeembrey/react-free-style) | 0.6.0 |  | ✓ | ✓ | ✓ | ✓ |
 | [react-inline-css](https://github.com/RickWong/react-inline-css) | 1.2.0 |  | ✓ | ✓ |  |  |
