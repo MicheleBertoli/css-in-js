@@ -334,6 +334,20 @@
     {
       "Package": [
         {
+          "text": "nano-css",
+          "href": "https://github.com/streamich/nano-css"
+        }
+      ],
+      "Version": "0.1.0",
+      "Automatic Vendor Prefixing": true,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": true
+    },
+    {
+      "Package": [
+        {
           "text": "pre-style",
           "href": "https://github.com/soluml/pre-style"
         }
