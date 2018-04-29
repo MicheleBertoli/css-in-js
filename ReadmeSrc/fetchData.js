@@ -24,7 +24,7 @@ async function getPackagesData() {
 async function getPackageData(solution, index) {
   await delay(5000 * index)
   console.log(`Package ${index + 1}: ${solution.Package[0].text}`)
-  return Promise.all(solution['Package Stats'].map(getRepoStats))
+  return Promise.all(solution.Package.map(getRepoStats))
 }
 
 async function getRepoStats(repo) {

@@ -22,11 +22,11 @@ For example, if a package supports the css file extraction you can run the autop
 
 **How to read the Package Stats**
 
-<img src="./ReadmeSrc/img/tag.svg" width="11" /> Version |
-<img src="./ReadmeSrc/img/star.svg" width="12" /> Stars |
-<img src="./ReadmeSrc/img/hand-paper-o.svg" width="12" /> Open issues |
-<img src="./ReadmeSrc/img/hand-peace-o.svg" width="12" /> Closed issues |
-<img src="./ReadmeSrc/img/download.svg" width="12" /> Weekly downloads
+<img src="./ReadmeSrc/img/tag.svg" width="11" /> npm version |
+<img src="./ReadmeSrc/img/star.svg" width="12" /> stars |
+<img src="./ReadmeSrc/img/hand-paper-o.svg" width="12" /> open issues |
+<img src="./ReadmeSrc/img/hand-peace-o.svg" width="12" /> closed issues |
+<img src="./ReadmeSrc/img/download.svg" width="12" /> weekly downloads
 
 ```mmd
 return '> This list has been auto-updated ([?](https://github.com/albinotonnina/mmarkdown)) on ' + scripts.getDate()
