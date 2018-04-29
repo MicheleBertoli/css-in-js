@@ -19,13 +19,17 @@ const stats = obj => {
     .map((stat, index) => {
       const spacer = index > 0 ? '<div>____________</div>' : ''
 
-      const openIssues = `<div><sub><img src="./ReadmeSrc/img/hand-paper-o.svg" width="12" />  ${
-        stat.githubData.open_issues
-      }</sub></div>`
+      const divWithIcon = (icon, value) =>
+        `<div><sub><img src="./ReadmeSrc/img/${icon}.svg" width="12" /> ${value}</sub></div>`
 
-      const closedIssues = `<div><sub><img src="./ReadmeSrc/img/hand-peace-o.svg" width="12" /> ${
+      const openIssues = divWithIcon(
+        'hand-paper-o',
+        stat.githubData.open_issues
+      )
+      const closedIssues = divWithIcon(
+        'hand-peace-o',
         stat.githubData.closed_issues
-      }</sub></div>`
+      )
 
       const stars = `<div><sub><img src="./ReadmeSrc/img/star.svg" width="12" /> ${
         stat.githubData.stargazers_count
