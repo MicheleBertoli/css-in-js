@@ -1,6 +1,6 @@
 const headers = [
   'Package',
-  //   'Version',
+  'Version',
   'Automatic Vendor Prefixing',
   'Pseudo Classes',
   'Media Queries',
@@ -35,11 +35,13 @@ const stats = obj => {
         stat.npmData.downloads
       }</sub></div>`
 
-      const version = `<div><sub><img src="./ReadmeSrc/img/tag.svg" width="12" /> ${
+      const npmVersion = `<div><sub><img src="./ReadmeSrc/img/tag.svg" width="12" /> ${
         stat.npmData.version
       }</sub></div>`
 
-      return spacer + version + stars + openIssues + closedIssues + lastWeekDl
+      return (
+        spacer + npmVersion + stars + openIssues + closedIssues + lastWeekDl
+      )
     })
     .join('')
 }
