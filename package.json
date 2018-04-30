@@ -9,8 +9,6 @@
     "make-readme": "mmarkdown"
   },
   "devDependencies": {
-    "axios": "^0.18.0",
-    "dotenv": "^5.0.1",
     "mmarkdown": "^1.0.0",
     "moment": "^2.22.1"
   },
@@ -19,8 +17,6 @@
     "scripts": "./ReadmeSrc/Readme.js"
   },
   "dependencies": {
-    "delay": "^2.0.0",
-    "lodash": "^4.17.5",
     "markdown-table": "^1.1.2"
   }
 }

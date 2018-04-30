@@ -33,8 +33,7 @@ return '> This list has been auto-updated ([?](https://github.com/albinotonnina/
 ```
 
 ```mmd
-const data = await scripts.getTableData()
-return scripts.getTable(data)
+return scripts.getTable()
 ```
 
 ## Testimonials
@@ -58,4 +57,4 @@ If your package is not listed here, feel free to add it.
 1.  Create a new folder named `package-name` in `Packages`.
 2.  Implement the red button example using the package.
 3.  Add a new entry to [data.json](webpage/src/data.json).
-4.  Re-generate the table with: `cd webpage && yarn && yarn readme`.
+4.  Re-generate the data with: `cd webpage && yarn && yarn update-data`.
