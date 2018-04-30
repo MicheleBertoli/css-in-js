@@ -114,4 +114,5 @@ If your package is not listed here, feel free to add it.
 1.  Create a new folder named `package-name` in the root folder.
 2.  Implement the red button example using the package.
 3.  Add a new entry to [data.json](webpage/src/data.json).
-4.  Re-generate the data with: `cd ReadmeSrc && yarn && yarn update-data && yarn generate-readme`.
+4.  Rename `ReadmeSrc/.env_example` to `ReadmeSrc/.env` and set a [Github access token](https://github.com/settings/tokens) to retrieve data from Github.
+5.  Re-generate the data with: `cd ReadmeSrc && yarn && yarn update-data && yarn generate-readme`.
