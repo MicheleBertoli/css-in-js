@@ -4,7 +4,7 @@ const axios = require('axios')
 const merge = require('lodash/fp/merge')
 const delay = require('delay')
 
-const data = require('../src/data.json')
+const data = require('../../webpage/src/data.json')
 
 // https://github.com/settings/tokens
 const access_token = process.env.GITHUB_TOKEN

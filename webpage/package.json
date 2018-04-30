@@ -11,18 +11,12 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "axios": "^0.18.0",
-    "dotenv": "^5.0.1",
-    "delay": "^2.0.0",
-    "lodash": "^4.17.5",
     "gh-pages": "^1.1.0",
-    "markdown-table": "^1.1.1",
     "react-scripts": "^1.1.1",
     "react-snap": "^1.11.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "update-data": "node ./scripts/updateData.js",
     "build": "react-scripts build && react-snap",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",

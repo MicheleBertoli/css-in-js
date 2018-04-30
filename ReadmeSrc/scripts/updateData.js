@@ -12,7 +12,7 @@ const writeOut = (data, path) =>
 async function fetch() {
   try {
     const data = await fetchData()
-    await writeOut(data, './src/data.json')
+    await writeOut(data, '../webpage/src/data.json')
   } catch (error) {
     console.log('error', error)
   }

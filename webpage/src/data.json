@@ -943,8 +943,7 @@
       "Package": [
         {
           "text": "react-fela",
-          "href":
-            "https://github.com/rofrischmann/fela/tree/master/packages/react-fela",
+          "href": "https://github.com/rofrischmann/fela/tree/master/packages/react-fela",
           "npm": "fela",
           "github": "rofrischmann/fela"
         }
