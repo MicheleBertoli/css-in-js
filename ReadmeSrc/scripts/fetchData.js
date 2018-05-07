@@ -78,13 +78,9 @@ async function fetchData() {
       }))
     }))
 
-    const mergedData = merge(data, {
-      rows: data.rows.map((row, index) => {
-        return merge(remoteDataForMerge[index], row)
-      })
+    return merge(data, {
+      rows: data.rows.map((row, index) => merge(row, remoteDataForMerge[index]))
     })
-
-    return mergedData
   } catch (error) {
     console.log('error', error)
   }
