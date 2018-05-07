@@ -44,6 +44,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [j2c](https://github.com/j2css/j2c) | 0.10.0 |  | ✓ | ✓ | ✓ | ✓ |
 | [jsxstyle](https://github.com/petehunt/jsxstyle) | 0.0.14 | ✓ |  |  | ✓ |  |
 | [linaria](https://github.com/callstack-io/linaria) | 0.5.0 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [nano-css](https://github.com/streamich/nano-css) | 0.1.0 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [pre-style](https://github.com/soluml/pre-style) | 1.0.9-alpha |  | ✓ | ✓ |  | ✓ |
 | [radium](https://github.com/FormidableLabs/radium) | 0.13.5 | ✓ | ✓ | ✓ | ✓ |  |
 | [react-css-builder](https://github.com/jhudson8/react-css-builder) | 0.2.0 |  |  |  | ✓ |  |
@@ -73,7 +74,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [stilr](https://github.com/kodyl/stilr) | 1.1.0 |  | ✓ | ✓ | ✓ | ✓ |
 | [stylable](https://github.com/wix/stylable) | 5.0.2 |  | ✓ | ✓ |  | ✓ |
 | [style-it](https://github.com/buildbreakdo/style-it) | 1.2.9 |  | ✓ | ✓ |  |  |
-| [styled-components](https://github.com/styled-components/styled-components) | 1.0.3 | ✓ | ✓ | ✓ |  |  |
+| [styled-components](https://github.com/styled-components/styled-components) | 3.2.6 | ✓ | ✓ | ✓ |  |  |
 | [styled-jsx](https://github.com/zeit/styled-jsx) | 0.0.7 | ✓ | ✓ | ✓ |  | ✓ |
 | [styletron-react](https://github.com/rtsao/styletron) | 2.1.2 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [styling](https://github.com/andreypopp/styling) | 0.2.0 |  | ✓ |  | ✓ | ✓ |
