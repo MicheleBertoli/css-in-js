@@ -762,7 +762,7 @@
           "href": "https://github.com/styled-components/styled-components"
         }
       ],
-      "Version": "1.0.3",
+      "Version": "3.2.6",
       "Automatic Vendor Prefixing": true,
       "Pseudo Classes": true,
       "Media Queries": true,
