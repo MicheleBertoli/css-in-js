@@ -254,7 +254,7 @@
           "href": "https://github.com/paypal/glamorous"
         }
       ],
-      "Version": "1.0.1",
+      "Version": "4.12.5",
       "Automatic Vendor Prefixing": true,
       "Pseudo Classes": true,
       "Media Queries": true,
