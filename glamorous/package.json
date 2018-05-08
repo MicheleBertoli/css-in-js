@@ -8,10 +8,10 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "glamor": "^2.1.0",
-    "glamorous": "^1.0.1",
-    "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "glamor": "^2.2.0",
+    "glamorous": "^4.12.5",
+    "react": "^16.3",
+    "react-dom": "^16.3"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",

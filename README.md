@@ -38,7 +38,7 @@ For example, if a package supports the css file extraction you can run the autop
 | [es-css-modules](https://github.com/jacobp100/es-css-modules) | 1.2.3 |  | ✓ | ✓ |  | ✓ |
 | [freestyler](https://github.com/streamich/freestyler) | 1.5.0 | ✓ | ✓ | ✓ | ✓ |  |
 | [glamor](https://github.com/threepointone/glamor) | 2.1.0 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| [glamorous](https://github.com/paypal/glamorous) | 1.0.1 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| [glamorous](https://github.com/paypal/glamorous) | 4.12.5 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | [hyperstyles](https://github.com/colingourlay/hyperstyles) | 3.3.0 |  | ✓ | ✓ |  | ✓ |
 | [i-css](https://github.com/irom-io/i-css) | 1.0.4 | ✓ | ✓ | ✓ | ✓ |  |
 | [j2c](https://github.com/j2css/j2c) | 0.10.0 |  | ✓ | ✓ | ✓ | ✓ |
