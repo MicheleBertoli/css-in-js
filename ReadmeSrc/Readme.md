@@ -20,20 +20,12 @@ npm run build && open index.html
 More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
-**How to read the Package Stats**
-
-<img src="./ReadmeSrc/img/tag.svg" width="11" /> npm version |
-<img src="./ReadmeSrc/img/star.svg" width="12" /> stars |
-<img src="./ReadmeSrc/img/hand-paper-o.svg" width="12" /> open issues |
-<img src="./ReadmeSrc/img/hand-peace-o.svg" width="12" /> closed issues |
-<img src="./ReadmeSrc/img/download.svg" width="12" /> weekly downloads
-
 ```mmd
-return '> This list has been auto-updated ([?](https://github.com/albinotonnina/mmarkdown)) on ' + scripts.getDate()
+return scripts.getTable()
 ```
 
 ```mmd
-return scripts.getTable()
+return '> This list has been auto-updated ([?](https://github.com/albinotonnina/mmarkdown)) on ' + scripts.getDate()
 ```
 
 ## Testimonials
