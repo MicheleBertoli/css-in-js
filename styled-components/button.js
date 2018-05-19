@@ -3,14 +3,14 @@ import { render } from 'react-dom';
 import styled from 'styled-components';
 
 const Container = styled.div`
-  textAlign: center;
+  text-align: center;
 `;
 
 const Button = styled.button`
-  backgroundColor: #ff0000;
+  background-color: #ff0000;
   width: 320px;
   padding: 20px;
-  borderRadius: 5px;
+  border-radius: 5px;
   border: none;
   outline: none;
   &:hover {

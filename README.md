@@ -20,6 +20,7 @@ npm run build && open index.html
 More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
+
 | Package | Version | Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File | Package Stats |
 | :------ | :-----: | :------------------------: | :------------: | :-----------: | :-----------------------: | :--------------: | :------------ |
 | [aphrodite](https://github.com/Khan/aphrodite)<div><sub><a href="https://www.npmjs.com/package/aphrodite" target="_blank" title="npm version"><img src="./ReadmeSrc/img/tag.svg" width="12" alt="tag" /></a> 2.2.0</sub> <sub><a href="https://github.com/Khan/aphrodite/stargazers" target="_blank" title="stars on Github"><img src="./ReadmeSrc/img/star.svg" width="12" alt="star" /></a> 4072</sub></div> | 1.2.3 | ✓ | ✓ | ✓ | ✓ | ✓ | <div><sub><a href="https://github.com/Khan/aphrodite/issues" target="_blank" title="open / closed issues"><img src="./ReadmeSrc/img/info.svg" width="12" alt="info" /></a> 59/132</sub></div><div><sub><a href="https://www.npmjs.com/package/aphrodite" target="_blank" title="weekly downloads"><img src="./ReadmeSrc/img/download.svg" width="12" alt="download" /></a> 95432</sub></div> |

@@ -545,7 +545,7 @@
           "github": "paypal/glamorous"
         }
       ],
-      "Version": "1.0.1",
+      "Version": "4.12.5",
       "Automatic Vendor Prefixing": true,
       "Pseudo Classes": true,
       "Media Queries": true,
@@ -1680,7 +1680,7 @@
           "github": "styled-components/styled-components"
         }
       ],
-      "Version": "1.0.3",
+      "Version": "3.2.6",
       "Automatic Vendor Prefixing": true,
       "Pseudo Classes": true,
       "Media Queries": true,
