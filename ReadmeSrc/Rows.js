@@ -71,14 +71,14 @@ const stats = obj => {
         alt: 'open / closed issues'
       })
 
-      const lastWeekDl = divWithIcon({
+      const lastMonthDl = divWithIcon({
         link: `https://www.npmjs.com/package/${npm}`,
         icon: 'download',
         value: npmData.downloads,
-        alt: 'weekly downloads'
+        alt: 'monthly downloads'
       })
 
-      return spacer + issues + lastWeekDl
+      return spacer + issues + lastMonthDl
     })
     .join('')
 }

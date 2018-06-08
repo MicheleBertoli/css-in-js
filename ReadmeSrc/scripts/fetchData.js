@@ -32,15 +32,18 @@ async function getNpmStats(npm) {
   }
 }
 
+// don't use "latest" API endpoint due to failure w/ scoped packages
+// https://github.com/npm/registry/issues/45
 const getNpmData = npm =>
-  axios.get(`https://registry.npmjs.org/${npm}/latest`).then(response => ({
-    version: response.data.version
+  axios.get(`https://registry.npmjs.org/${npm}`).then(response => ({
+    version: response.data["dist-tags"].latest
   }))
 
+// using monthly DL stats since npm API seems to return "0" for most weekly stats
 const getNpmDownloads = npm =>
   axios
-    .get(`https://api.npmjs.org/downloads/point/last-week/${npm}`)
-    .then(response => ({downloads: response.data.downloads}))
+    .get(`https://api.npmjs.org/downloads/point/last-month/${npm}`)
+    .then(response => ({ downloads: response.data.downloads }))
 
 const getIssueCount = (github, state) =>
   axios
@@ -56,7 +59,7 @@ const getGithubRepoStats = github =>
 
 async function getGithubStats(github) {
   const repoData = await getGithubRepoStats(github)
-  const {open_issues, stargazers_count} = repoData
+  const { open_issues, stargazers_count } = repoData
   const closed_issues = await getIssueCount(github, 'closed')
   return {
     closed_issues,
