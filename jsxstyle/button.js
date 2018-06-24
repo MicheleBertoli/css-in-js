@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import {Block} from 'jsxstyle';
 
 const styles = {
@@ -12,14 +13,10 @@ const styles = {
   }
 };
 
-const Button = React.createClass({
-  render() {
-    return (
-      <Block textAlign="center">
-        <button style={styles.button}>Click me!</button>
-      </Block>
-    );
-  }
-});
+const Button = props => (
+  <Block textAlign="center">
+    <button style={styles.button}>Click me!</button>
+  </Block>
+);
 
-React.render(<Button />, document.getElementById('content'));
+ReactDOM.render(<Button />, document.getElementById('content'));

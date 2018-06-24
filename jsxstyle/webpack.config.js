@@ -1,11 +1,17 @@
 var path = require('path');
 
 module.exports = {
+  mode: 'development',
   module: {
-    loaders: [{
+    rules: [{
       test: /\.jsx?$/,
       exclude: /(node_modules|bower_components)/,
-      loader: 'babel!' + path.join(__dirname, 'node_modules/jsxstyle/lib/webpackLoader.js')
+      use: {
+        loader: 'babel-loader',
+        options: {
+          presets: ['babel-preset-env', 'babel-preset-react']
+        }
+      }
     }]
   }
 }
