@@ -415,6 +415,22 @@
     {
       "Package": [
         {
+          "text": "electron-css",
+          "href": "https://github.com/azukaar/electron-css",
+          "npm": "electron-css",
+          "github": "azukaar/electron-css"
+        }
+      ],
+      "Version": "0.6.0",
+      "Automatic Vendor Prefixing": false,
+      "Pseudo Classes": true,
+      "Media Queries": true,
+      "Styles As Object Literals": true,
+      "Extract CSS File": false
+    },
+    {
+      "Package": [
+        {
           "text": "emotion",
           "href": "https://github.com/tkh44/emotion",
           "npm": "emotion",
