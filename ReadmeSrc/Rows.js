@@ -44,7 +44,7 @@ const links = obj => {
         subWithIcon({
           link: `${href}/stargazers`,
           icon: 'star',
-          value: githubData.stargazers_count,
+          value: intAsCommaSeparated(githubData.stargazers_count),
           alt: 'stars on Github'
         })}</div>`
 
@@ -74,7 +74,7 @@ const stats = obj => {
       const lastMonthDl = divWithIcon({
         link: `https://www.npmjs.com/package/${npm}`,
         icon: 'download',
-        value: npmData.downloads,
+        value: intAsCommaSeparated(npmData.downloads),
         alt: 'monthly downloads'
       })
 
@@ -113,5 +113,7 @@ function getRows(rows) {
   const out = rows.map(row)
   return out
 }
+
+const intAsCommaSeparated = (number) => number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
 
 module.exports = {getRows, headers}
