@@ -1129,9 +1129,9 @@
       "Package": [
         {
           "text": "react-jss",
-          "href": "https://github.com/jsstyles/react-jss",
+          "href": "https://github.com/cssinjs/jss",
           "npm": "react-jss",
-          "github": "cssinjs/react-jss"
+          "github": "cssinjs/jss"
         }
       ],
       "Version": "2.0.5",
