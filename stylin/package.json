@@ -1,0 +1,27 @@
+{
+  "name": "stylin-css-in-js",
+  "version": "1.0.0",
+  "description": "Stylin - CSS in JS",
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "author": "Sultan Arziyev",
+  "license": "MIT",
+  "dependencies": {
+    "@stylin/style": "^0.0.2-alpha.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.23.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "@stylin/msa-loader": "^0.0.3-alpha.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
