@@ -9,12 +9,9 @@
 /**
   @tag: button
   @component: Button
-  color?: #ff0000 --color
-  isDisabled?: true disabled
 */
 .button {
-  --color: #ff0000;
-  background-color: var(--color);
+  background-color: #ff0000;
   width: 320px;
   padding: 20px;
   border-radius: 5px;
@@ -29,11 +26,5 @@
   }
   @media (max-width: 480px) {
     width: 160px;
-  }
-  &.disabled,
-  &[disabled] {
-    background-color: #212325;
-    color: #666666;
-    position: unset;
   }
 }

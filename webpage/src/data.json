@@ -1808,7 +1808,7 @@
       "Automatic Vendor Prefixing": true,
       "Pseudo Classes": true,
       "Media Queries": true,
-      "Styles As Object Literals": false,
+      "Styles As Object Literals": true,
       "Extract CSS File": true,
       "Package Stats": [
         {

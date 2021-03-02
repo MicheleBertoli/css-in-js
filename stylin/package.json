@@ -8,17 +8,17 @@
   "author": "Sultan Arziyev",
   "license": "MIT",
   "dependencies": {
-    "@stylin/style": "^0.0.2-alpha.0",
+    "@stylin/style": "^0.3.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "webpack": "^5.23.0"
+    "webpack": "^5.24.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.17",
+    "@babel/core": "^7.13.8",
     "@babel/preset-react": "^7.12.13",
-    "@stylin/msa-loader": "^0.0.3-alpha.0",
+    "@stylin/msa-loader": "^0.3.1",
     "babel-loader": "^8.2.2",
-    "css-loader": "^5.0.2",
+    "css-loader": "^5.1.1",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",

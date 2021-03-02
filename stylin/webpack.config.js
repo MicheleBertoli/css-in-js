@@ -21,8 +21,8 @@ module.exports = {
         test: /\.scss$/i,
         use: [
           `@stylin/msa-loader`,
-          `style-loader`,
-          {loader: `css-loader`, options: {modules: true}},
+          `style-loader`, // for css extract use mini-css-extract-plugin
+          `css-loader?modules=true`,
           `sass-loader`
         ]
       }
